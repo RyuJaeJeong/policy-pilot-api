@@ -1,0 +1,2322 @@
+[2025-04-03 10:31:09,166.166] INFO [2116] - Will watch for changes in these directories: ['D:\\3240133\\Desktop\\langchain-study']
+[2025-04-03 10:31:09,166.166] INFO [2116] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:31:09,172.172] INFO [2116] - Started reloader process [12504] using WatchFiles
+[2025-04-03 10:31:09,595.595] INFO [2116] - 1 change detected
+[2025-04-03 10:31:09,998.998] INFO [2116] - 1 change detected
+[2025-04-03 10:31:10,050.050] INFO [5144] - Started server process [10312]
+[2025-04-03 10:31:10,050.050] INFO [5144] - Waiting for application startup.
+[2025-04-03 10:31:10,051.051] INFO [5144] - Application startup complete.
+[2025-04-03 10:31:10,417.417] INFO [2116] - 1 change detected
+[2025-04-03 10:31:10,780.780] INFO [2116] - 1 change detected
+[2025-04-03 10:31:11,184.184] INFO [2116] - 1 change detected
+[2025-04-03 10:31:11,607.607] INFO [2116] - 1 change detected
+[2025-04-03 10:31:12,013.013] INFO [2116] - 1 change detected
+[2025-04-03 10:31:12,421.421] INFO [2116] - 1 change detected
+[2025-04-03 10:31:12,827.827] INFO [2116] - 1 change detected
+[2025-04-03 10:31:13,232.232] INFO [2116] - 1 change detected
+[2025-04-03 10:31:13,641.641] INFO [2116] - 1 change detected
+[2025-04-03 10:31:14,058.058] INFO [2116] - 1 change detected
+[2025-04-03 10:31:14,472.472] INFO [2116] - 1 change detected
+[2025-04-03 10:31:14,889.889] INFO [2116] - 1 change detected
+[2025-04-03 10:31:15,295.295] INFO [2116] - 1 change detected
+[2025-04-03 10:31:15,649.649] INFO [2116] - 1 change detected
+[2025-04-03 10:31:16,100.100] INFO [2116] - 1 change detected
+[2025-04-03 10:31:16,502.502] INFO [2116] - 1 change detected
+[2025-04-03 10:31:16,867.867] INFO [2116] - 1 change detected
+[2025-04-03 10:31:17,227.227] INFO [2116] - 1 change detected
+[2025-04-03 10:31:17,583.583] INFO [2116] - 1 change detected
+[2025-04-03 10:31:17,934.934] INFO [2116] - 1 change detected
+[2025-04-03 10:31:18,306.306] INFO [2116] - 1 change detected
+[2025-04-03 10:31:18,659.659] INFO [2116] - 1 change detected
+[2025-04-03 10:31:18,971.971] INFO [5144] - Shutting down
+[2025-04-03 10:31:19,083.083] INFO [5144] - Waiting for application shutdown.
+[2025-04-03 10:31:19,083.083] INFO [5144] - Application shutdown complete.
+[2025-04-03 10:31:19,084.084] INFO [5144] - Finished server process [10312]
+[2025-04-03 10:31:19,169.169] INFO [2116] - Stopping reloader process [12504]
+[2025-04-03 10:31:26,861.861] INFO [7068] - Will watch for changes in these directories: ['D:\\3240133\\Desktop\\langchain-study']
+[2025-04-03 10:31:26,862.862] INFO [7068] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:31:26,863.863] INFO [7068] - Started reloader process [13272] using WatchFiles
+[2025-04-03 10:31:28,814.814] INFO [7544] - Started server process [7688]
+[2025-04-03 10:31:28,814.814] INFO [7544] - Waiting for application startup.
+[2025-04-03 10:31:28,814.814] INFO [7544] - Application startup complete.
+[2025-04-03 10:31:28,834.834] INFO [7068] - 1 change detected
+[2025-04-03 10:31:29,199.199] INFO [7068] - 1 change detected
+[2025-04-03 10:31:29,601.601] INFO [7068] - 1 change detected
+[2025-04-03 10:31:30,002.002] INFO [7068] - 1 change detected
+[2025-04-03 10:31:30,419.419] INFO [7068] - 1 change detected
+[2025-04-03 10:31:30,826.826] INFO [7068] - 1 change detected
+[2025-04-03 10:31:31,231.231] INFO [7068] - 1 change detected
+[2025-04-03 10:31:31,639.639] INFO [7068] - 1 change detected
+[2025-04-03 10:31:32,046.046] INFO [7068] - 1 change detected
+[2025-04-03 10:31:32,401.401] INFO [7068] - 1 change detected
+[2025-04-03 10:31:32,809.809] INFO [7068] - 1 change detected
+[2025-04-03 10:31:33,233.233] INFO [7068] - 1 change detected
+[2025-04-03 10:31:33,650.650] INFO [7068] - 1 change detected
+[2025-04-03 10:31:34,112.112] INFO [7068] - 1 change detected
+[2025-04-03 10:31:34,482.482] INFO [7068] - 1 change detected
+[2025-04-03 10:31:34,892.892] INFO [7068] - 1 change detected
+[2025-04-03 10:31:35,311.311] INFO [7068] - 1 change detected
+[2025-04-03 10:31:35,767.767] INFO [7068] - 1 change detected
+[2025-04-03 10:31:36,170.170] INFO [7068] - 1 change detected
+[2025-04-03 10:31:36,575.575] INFO [7068] - 1 change detected
+[2025-04-03 10:31:36,981.981] INFO [7068] - 1 change detected
+[2025-04-03 10:31:37,335.335] INFO [7068] - 1 change detected
+[2025-04-03 10:31:37,699.699] INFO [7068] - 1 change detected
+[2025-04-03 10:31:38,061.061] INFO [7068] - 1 change detected
+[2025-04-03 10:31:38,417.417] INFO [7068] - 1 change detected
+[2025-04-03 10:31:38,777.777] INFO [7068] - 1 change detected
+[2025-04-03 10:31:39,138.138] INFO [7068] - 1 change detected
+[2025-04-03 10:31:39,503.503] INFO [7068] - 1 change detected
+[2025-04-03 10:31:39,859.859] INFO [7068] - 1 change detected
+[2025-04-03 10:31:40,230.230] INFO [7068] - 1 change detected
+[2025-04-03 10:31:40,586.586] INFO [7068] - 1 change detected
+[2025-04-03 10:31:40,951.951] INFO [7068] - 1 change detected
+[2025-04-03 10:31:41,312.312] INFO [7068] - 1 change detected
+[2025-04-03 10:31:41,685.685] INFO [7068] - 1 change detected
+[2025-04-03 10:31:42,040.040] INFO [7068] - 1 change detected
+[2025-04-03 10:31:42,400.400] INFO [7068] - 1 change detected
+[2025-04-03 10:31:42,753.753] INFO [7068] - 1 change detected
+[2025-04-03 10:31:43,118.118] INFO [7068] - 1 change detected
+[2025-04-03 10:31:43,471.471] INFO [7068] - 1 change detected
+[2025-04-03 10:31:43,823.823] INFO [7068] - 1 change detected
+[2025-04-03 10:31:44,181.181] INFO [7068] - 1 change detected
+[2025-04-03 10:31:44,542.542] INFO [7068] - 1 change detected
+[2025-04-03 10:31:44,898.898] INFO [7068] - 1 change detected
+[2025-04-03 10:31:45,263.263] INFO [7068] - 1 change detected
+[2025-04-03 10:31:45,617.617] INFO [7068] - 1 change detected
+[2025-04-03 10:31:45,977.977] INFO [7068] - 1 change detected
+[2025-04-03 10:31:46,341.341] INFO [7068] - 1 change detected
+[2025-04-03 10:31:46,693.693] INFO [7068] - 1 change detected
+[2025-04-03 10:31:47,056.056] INFO [7068] - 1 change detected
+[2025-04-03 10:31:47,432.432] INFO [7068] - 1 change detected
+[2025-04-03 10:31:47,803.803] INFO [7068] - 1 change detected
+[2025-04-03 10:31:48,165.165] INFO [7068] - 1 change detected
+[2025-04-03 10:31:48,533.533] INFO [7068] - 1 change detected
+[2025-04-03 10:31:48,900.900] INFO [7068] - 1 change detected
+[2025-04-03 10:31:49,258.258] INFO [7068] - 1 change detected
+[2025-04-03 10:31:49,617.617] INFO [7068] - 1 change detected
+[2025-04-03 10:31:49,977.977] INFO [7068] - 1 change detected
+[2025-04-03 10:31:50,339.339] INFO [7068] - 1 change detected
+[2025-04-03 10:31:50,696.696] INFO [7068] - 1 change detected
+[2025-04-03 10:31:51,056.056] INFO [7068] - 1 change detected
+[2025-04-03 10:31:51,430.430] INFO [7068] - 1 change detected
+[2025-04-03 10:31:51,795.795] INFO [7068] - 1 change detected
+[2025-04-03 10:31:52,151.151] INFO [7068] - 1 change detected
+[2025-04-03 10:31:52,511.511] INFO [7068] - 1 change detected
+[2025-04-03 10:31:52,871.871] INFO [7068] - 1 change detected
+[2025-04-03 10:31:53,235.235] INFO [7068] - 1 change detected
+[2025-04-03 10:31:53,593.593] INFO [7068] - 1 change detected
+[2025-04-03 10:31:53,960.960] INFO [7068] - 1 change detected
+[2025-04-03 10:31:54,339.339] INFO [7068] - 1 change detected
+[2025-04-03 10:31:54,693.693] INFO [7068] - 2 changes detected
+[2025-04-03 10:31:54,693.693] WARNING [7068] - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-04-03 10:31:54,786.786] INFO [7544] - Shutting down
+[2025-04-03 10:31:54,909.909] INFO [7544] - Waiting for application shutdown.
+[2025-04-03 10:31:54,909.909] INFO [7544] - Application shutdown complete.
+[2025-04-03 10:31:54,909.909] INFO [7544] - Finished server process [7688]
+[2025-04-03 10:31:55,673.673] INFO [7068] - 1 change detected
+[2025-04-03 10:31:56,078.078] INFO [8176] - Started server process [8612]
+[2025-04-03 10:31:56,078.078] INFO [8176] - Waiting for application startup.
+[2025-04-03 10:31:56,079.079] INFO [8176] - Application startup complete.
+[2025-04-03 10:31:56,129.129] INFO [7068] - 6 changes detected
+[2025-04-03 10:31:56,493.493] INFO [7068] - 1 change detected
+[2025-04-03 10:31:56,855.855] INFO [7068] - 1 change detected
+[2025-04-03 10:31:57,217.217] INFO [7068] - 1 change detected
+[2025-04-03 10:31:57,579.579] INFO [7068] - 1 change detected
+[2025-04-03 10:31:57,933.933] INFO [7068] - 1 change detected
+[2025-04-03 10:31:58,297.297] INFO [7068] - 1 change detected
+[2025-04-03 10:31:58,651.651] INFO [7068] - 1 change detected
+[2025-04-03 10:31:59,008.008] INFO [7068] - 1 change detected
+[2025-04-03 10:31:59,368.368] INFO [7068] - 1 change detected
+[2025-04-03 10:31:59,729.729] INFO [7068] - 1 change detected
+[2025-04-03 10:32:00,094.094] INFO [7068] - 1 change detected
+[2025-04-03 10:32:00,450.450] INFO [7068] - 1 change detected
+[2025-04-03 10:32:00,809.809] INFO [7068] - 1 change detected
+[2025-04-03 10:32:01,169.169] INFO [7068] - 1 change detected
+[2025-04-03 10:32:01,525.525] INFO [7068] - 1 change detected
+[2025-04-03 10:32:01,888.888] INFO [7068] - 1 change detected
+[2025-04-03 10:32:02,245.245] INFO [7068] - 1 change detected
+[2025-04-03 10:32:02,606.606] INFO [7068] - 1 change detected
+[2025-04-03 10:32:02,961.961] INFO [7068] - 1 change detected
+[2025-04-03 10:32:03,320.320] INFO [7068] - 1 change detected
+[2025-04-03 10:32:03,680.680] INFO [7068] - 1 change detected
+[2025-04-03 10:32:04,040.040] INFO [7068] - 1 change detected
+[2025-04-03 10:32:04,399.399] INFO [7068] - 1 change detected
+[2025-04-03 10:32:04,758.758] INFO [7068] - 1 change detected
+[2025-04-03 10:32:05,127.127] INFO [7068] - 1 change detected
+[2025-04-03 10:32:05,492.492] INFO [7068] - 1 change detected
+[2025-04-03 10:32:05,853.853] INFO [7068] - 1 change detected
+[2025-04-03 10:32:06,212.212] INFO [7068] - 1 change detected
+[2025-04-03 10:32:06,572.572] INFO [7068] - 1 change detected
+[2025-04-03 10:32:06,933.933] INFO [7068] - 1 change detected
+[2025-04-03 10:32:07,295.295] INFO [7068] - 2 changes detected
+[2025-04-03 10:32:07,298.298] WARNING [7068] - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-04-03 10:32:07,332.332] INFO [8176] - Shutting down
+[2025-04-03 10:32:07,442.442] INFO [8176] - Waiting for application shutdown.
+[2025-04-03 10:32:07,442.442] INFO [8176] - Application shutdown complete.
+[2025-04-03 10:32:07,448.448] INFO [8176] - Finished server process [8612]
+[2025-04-03 10:32:08,109.109] INFO [7068] - 1 change detected
+[2025-04-03 10:32:09,164.164] INFO [7068] - Stopping reloader process [13272]
+[2025-04-03 10:32:10,591.591] INFO [1804] - Will watch for changes in these directories: ['D:\\3240133\\Desktop\\langchain-study']
+[2025-04-03 10:32:10,592.592] INFO [1804] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:32:10,595.595] INFO [1804] - Started reloader process [7360] using WatchFiles
+[2025-04-03 10:32:11,385.385] INFO [7996] - Started server process [9996]
+[2025-04-03 10:32:11,387.387] INFO [7996] - Waiting for application startup.
+[2025-04-03 10:32:11,387.387] INFO [7996] - Application startup complete.
+[2025-04-03 10:32:11,482.482] INFO [1804] - 5 changes detected
+[2025-04-03 10:32:21,616.616] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:24,097.097] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:24,508.508] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:24,834.834] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:25,057.057] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:25,281.281] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:25,503.503] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:25,724.724] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:25,880.880] INFO [7996] - 127.0.0.1:50656 - "GET / HTTP/1.1" 200
+[2025-04-03 10:32:33,589.589] INFO [1804] - 1 change detected
+[2025-04-03 10:32:33,591.591] WARNING [1804] - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-04-03 10:32:33,710.710] INFO [7996] - Shutting down
+[2025-04-03 10:32:33,813.813] INFO [7996] - Waiting for application shutdown.
+[2025-04-03 10:32:33,815.815] INFO [7996] - Application shutdown complete.
+[2025-04-03 10:32:33,820.820] INFO [7996] - Finished server process [9996]
+[2025-04-03 10:32:34,727.727] INFO [1804] - 1 change detected
+[2025-04-03 10:32:35,623.623] INFO [1244] - Started server process [8924]
+[2025-04-03 10:32:35,624.624] INFO [1244] - Waiting for application startup.
+[2025-04-03 10:32:35,624.624] INFO [1244] - Application startup complete.
+[2025-04-03 10:32:35,700.700] INFO [1804] - 6 changes detected
+[2025-04-03 10:32:36,055.055] INFO [1804] - 1 change detected
+[2025-04-03 10:32:36,413.413] INFO [1804] - 1 change detected
+[2025-04-03 10:32:36,773.773] INFO [1804] - 1 change detected
+[2025-04-03 10:32:37,133.133] INFO [1804] - 1 change detected
+[2025-04-03 10:32:37,496.496] INFO [1804] - 1 change detected
+[2025-04-03 10:32:37,867.867] INFO [1804] - 1 change detected
+[2025-04-03 10:32:38,232.232] INFO [1804] - 1 change detected
+[2025-04-03 10:32:38,586.586] INFO [1804] - 1 change detected
+[2025-04-03 10:32:38,945.945] INFO [1804] - 1 change detected
+[2025-04-03 10:32:39,305.305] INFO [1804] - 1 change detected
+[2025-04-03 10:32:39,663.663] INFO [1804] - 1 change detected
+[2025-04-03 10:32:40,024.024] INFO [1804] - 1 change detected
+[2025-04-03 10:32:40,384.384] INFO [1804] - 1 change detected
+[2025-04-03 10:32:40,765.765] INFO [1804] - 1 change detected
+[2025-04-03 10:32:41,118.118] INFO [1804] - 1 change detected
+[2025-04-03 10:32:41,481.481] INFO [1804] - 1 change detected
+[2025-04-03 10:32:41,846.846] INFO [1804] - 1 change detected
+[2025-04-03 10:32:42,198.198] INFO [1804] - 1 change detected
+[2025-04-03 10:32:42,557.557] INFO [1804] - 1 change detected
+[2025-04-03 10:32:42,914.914] INFO [1804] - 1 change detected
+[2025-04-03 10:32:43,275.275] INFO [1804] - 1 change detected
+[2025-04-03 10:32:43,640.640] INFO [1804] - 1 change detected
+[2025-04-03 10:32:43,995.995] INFO [1804] - 1 change detected
+[2025-04-03 10:32:44,349.349] INFO [1804] - 1 change detected
+[2025-04-03 10:32:44,710.710] INFO [1804] - 1 change detected
+[2025-04-03 10:32:45,070.070] INFO [1804] - 1 change detected
+[2025-04-03 10:32:45,428.428] INFO [1804] - 1 change detected
+[2025-04-03 10:32:45,789.789] INFO [1804] - 1 change detected
+[2025-04-03 10:32:46,155.155] INFO [1804] - 1 change detected
+[2025-04-03 10:32:46,524.524] INFO [1804] - 1 change detected
+[2025-04-03 10:32:46,888.888] INFO [1804] - 1 change detected
+[2025-04-03 10:32:47,243.243] INFO [1804] - 1 change detected
+[2025-04-03 10:32:47,603.603] INFO [1804] - 1 change detected
+[2025-04-03 10:32:47,961.961] INFO [1804] - 1 change detected
+[2025-04-03 10:32:48,319.319] INFO [1804] - 1 change detected
+[2025-04-03 10:32:48,681.681] INFO [1804] - 1 change detected
+[2025-04-03 10:32:49,046.046] INFO [1804] - 1 change detected
+[2025-04-03 10:32:49,399.399] INFO [1804] - 1 change detected
+[2025-04-03 10:32:49,758.758] INFO [1804] - 1 change detected
+[2025-04-03 10:32:50,118.118] INFO [1804] - 1 change detected
+[2025-04-03 10:32:50,483.483] INFO [1804] - 1 change detected
+[2025-04-03 10:32:50,836.836] INFO [1804] - 1 change detected
+[2025-04-03 10:32:51,188.188] INFO [1804] - 1 change detected
+[2025-04-03 10:32:51,555.555] INFO [1804] - 1 change detected
+[2025-04-03 10:32:51,917.917] INFO [1804] - 1 change detected
+[2025-04-03 10:32:52,275.275] INFO [1804] - 1 change detected
+[2025-04-03 10:32:52,636.636] INFO [1804] - 1 change detected
+[2025-04-03 10:32:52,991.991] INFO [1804] - 1 change detected
+[2025-04-03 10:32:53,353.353] INFO [1804] - 1 change detected
+[2025-04-03 10:32:53,707.707] INFO [1804] - 1 change detected
+[2025-04-03 10:32:54,086.086] INFO [1804] - 1 change detected
+[2025-04-03 10:32:54,092.092] WARNING [1804] - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-04-03 10:32:54,163.163] INFO [1244] - Shutting down
+[2025-04-03 10:32:54,275.275] INFO [1244] - Waiting for application shutdown.
+[2025-04-03 10:32:54,277.277] INFO [1244] - Application shutdown complete.
+[2025-04-03 10:32:54,277.277] INFO [1244] - Finished server process [8924]
+[2025-04-03 10:32:55,003.003] INFO [1804] - 1 change detected
+[2025-04-03 10:32:55,748.748] INFO [12464] - Started server process [5828]
+[2025-04-03 10:32:55,749.749] INFO [12464] - Waiting for application startup.
+[2025-04-03 10:32:55,749.749] INFO [12464] - Application startup complete.
+[2025-04-03 10:32:55,827.827] INFO [1804] - 6 changes detected
+[2025-04-03 10:32:56,184.184] INFO [1804] - 1 change detected
+[2025-04-03 10:32:56,536.536] INFO [1804] - 1 change detected
+[2025-04-03 10:32:56,901.901] INFO [1804] - 1 change detected
+[2025-04-03 10:32:57,263.263] INFO [1804] - 1 change detected
+[2025-04-03 10:32:57,617.617] INFO [1804] - 1 change detected
+[2025-04-03 10:32:57,978.978] INFO [1804] - 1 change detected
+[2025-04-03 10:32:58,340.340] INFO [1804] - 1 change detected
+[2025-04-03 10:32:58,701.701] INFO [1804] - 1 change detected
+[2025-04-03 10:32:59,057.057] INFO [1804] - 1 change detected
+[2025-04-03 10:32:59,415.415] INFO [1804] - 1 change detected
+[2025-04-03 10:32:59,773.773] INFO [1804] - 1 change detected
+[2025-04-03 10:33:00,134.134] INFO [1804] - 1 change detected
+[2025-04-03 10:33:00,492.492] INFO [1804] - 1 change detected
+[2025-04-03 10:33:00,854.854] INFO [1804] - 1 change detected
+[2025-04-03 10:33:01,212.212] INFO [1804] - 1 change detected
+[2025-04-03 10:33:01,571.571] INFO [1804] - 1 change detected
+[2025-04-03 10:33:01,929.929] INFO [1804] - 1 change detected
+[2025-04-03 10:33:02,288.288] INFO [1804] - 1 change detected
+[2025-04-03 10:33:02,648.648] INFO [1804] - 1 change detected
+[2025-04-03 10:33:03,008.008] INFO [1804] - 1 change detected
+[2025-04-03 10:33:03,369.369] INFO [1804] - 1 change detected
+[2025-04-03 10:33:03,725.725] INFO [1804] - 1 change detected
+[2025-04-03 10:33:04,084.084] INFO [1804] - 1 change detected
+[2025-04-03 10:33:04,450.450] INFO [1804] - 1 change detected
+[2025-04-03 10:33:04,829.829] INFO [12464] - Shutting down
+[2025-04-03 10:33:04,941.941] INFO [12464] - Waiting for application shutdown.
+[2025-04-03 10:33:04,941.941] INFO [12464] - Application shutdown complete.
+[2025-04-03 10:33:04,942.942] INFO [12464] - Finished server process [5828]
+[2025-04-03 10:33:04,954.954] INFO [1804] - Stopping reloader process [7360]
+[2025-04-03 10:33:07,535.535] INFO [8992] - Will watch for changes in these directories: ['D:\\3240133\\Desktop\\langchain-study']
+[2025-04-03 10:33:07,546.546] INFO [8992] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:33:07,560.560] INFO [8992] - Started reloader process [13132] using WatchFiles
+[2025-04-03 10:33:08,766.766] INFO [5200] - Started server process [8768]
+[2025-04-03 10:33:08,767.767] INFO [5200] - Waiting for application startup.
+[2025-04-03 10:33:08,767.767] INFO [5200] - Application startup complete.
+[2025-04-03 10:33:12,103.103] ERROR [5020] - hello
+[2025-04-03 10:33:12,104.104] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:13,040.040] ERROR [5020] - hello
+[2025-04-03 10:33:13,041.041] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:13,873.873] ERROR [5020] - hello
+[2025-04-03 10:33:13,881.881] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:14,408.408] ERROR [5020] - hello
+[2025-04-03 10:33:14,413.413] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:14,844.844] ERROR [5020] - hello
+[2025-04-03 10:33:14,856.856] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:15,194.194] ERROR [5020] - hello
+[2025-04-03 10:33:15,195.195] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:15,572.572] ERROR [5020] - hello
+[2025-04-03 10:33:15,573.573] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:15,952.952] ERROR [5020] - hello
+[2025-04-03 10:33:15,953.953] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:16,369.369] ERROR [5020] - hello
+[2025-04-03 10:33:16,370.370] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:17,386.386] ERROR [5020] - hello
+[2025-04-03 10:33:17,387.387] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:17,940.940] ERROR [5020] - hello
+[2025-04-03 10:33:17,941.941] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:18,385.385] ERROR [5020] - hello
+[2025-04-03 10:33:18,387.387] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:18,844.844] ERROR [5020] - hello
+[2025-04-03 10:33:18,845.845] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:19,442.442] ERROR [5020] - hello
+[2025-04-03 10:33:19,442.442] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:20,058.058] ERROR [5020] - hello
+[2025-04-03 10:33:20,062.062] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:20,569.569] ERROR [5020] - hello
+[2025-04-03 10:33:20,570.570] INFO [5200] - 127.0.0.1:50673 - "GET / HTTP/1.1" 200
+[2025-04-03 10:33:25,202.202] INFO [8992] - 1 change detected
+[2025-04-03 10:33:25,203.203] WARNING [8992] - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-04-03 10:33:25,259.259] INFO [5200] - Shutting down
+[2025-04-03 10:33:25,364.364] INFO [5200] - Waiting for application shutdown.
+[2025-04-03 10:33:25,364.364] INFO [5200] - Application shutdown complete.
+[2025-04-03 10:33:25,365.365] INFO [5200] - Finished server process [8768]
+[2025-04-03 10:33:25,819.819] INFO [8992] - 1 change detected
+[2025-04-03 10:33:26,462.462] INFO [11336] - Started server process [9316]
+[2025-04-03 10:33:26,463.463] INFO [11336] - Waiting for application startup.
+[2025-04-03 10:33:26,463.463] INFO [11336] - Application startup complete.
+[2025-04-03 10:33:26,542.542] INFO [8992] - 6 changes detected
+[2025-04-03 10:33:26,947.947] INFO [8992] - 1 change detected
+[2025-04-03 10:33:27,307.307] INFO [8992] - 1 change detected
+[2025-04-03 10:33:27,681.681] INFO [8992] - 1 change detected
+[2025-04-03 10:33:28,042.042] INFO [8992] - 1 change detected
+[2025-04-03 10:33:28,400.400] INFO [8992] - 1 change detected
+[2025-04-03 10:33:28,757.757] INFO [8992] - 1 change detected
+[2025-04-03 10:33:29,121.121] INFO [8992] - 1 change detected
+[2025-04-03 10:33:29,480.480] INFO [8992] - 1 change detected
+[2025-04-03 10:33:29,835.835] INFO [8992] - 1 change detected
+[2025-04-03 10:33:30,195.195] INFO [8992] - 1 change detected
+[2025-04-03 10:33:30,558.558] INFO [8992] - 1 change detected
+[2025-04-03 10:33:30,913.913] INFO [8992] - 1 change detected
+[2025-04-03 10:33:31,273.273] INFO [8992] - 1 change detected
+[2025-04-03 10:33:31,648.648] INFO [8992] - 1 change detected
+[2025-04-03 10:33:32,007.007] INFO [8992] - 1 change detected
+[2025-04-03 10:33:32,369.369] INFO [8992] - 1 change detected
+[2025-04-03 10:33:32,724.724] INFO [8992] - 1 change detected
+[2025-04-03 10:33:33,088.088] INFO [8992] - 1 change detected
+[2025-04-03 10:33:33,446.446] INFO [8992] - 1 change detected
+[2025-04-03 10:33:33,813.813] INFO [8992] - 1 change detected
+[2025-04-03 10:33:34,181.181] INFO [8992] - 1 change detected
+[2025-04-03 10:33:34,541.541] INFO [8992] - 1 change detected
+[2025-04-03 10:33:34,898.898] INFO [8992] - 1 change detected
+[2025-04-03 10:33:35,263.263] INFO [8992] - 1 change detected
+[2025-04-03 10:33:35,623.623] INFO [8992] - 1 change detected
+[2025-04-03 10:33:35,980.980] INFO [8992] - 1 change detected
+[2025-04-03 10:33:36,098.098] INFO [11336] - Shutting down
+[2025-04-03 10:33:36,206.206] INFO [11336] - Waiting for application shutdown.
+[2025-04-03 10:33:36,207.207] INFO [11336] - Application shutdown complete.
+[2025-04-03 10:33:36,207.207] INFO [11336] - Finished server process [9316]
+[2025-04-03 10:33:36,315.315] INFO [8992] - Stopping reloader process [13132]
+[2025-04-03 10:34:55,905.905] INFO [2660] - Will watch for changes in these directories: ['D:\\3240133\\Desktop\\langchain-study']
+[2025-04-03 10:34:55,905.905] INFO [2660] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:34:55,917.917] INFO [2660] - Started reloader process [4292] using WatchFiles
+[2025-04-03 10:34:56,673.673] INFO [11508] - Started server process [12132]
+[2025-04-03 10:34:56,673.673] INFO [11508] - Waiting for application startup.
+[2025-04-03 10:34:56,673.673] INFO [11508] - Application startup complete.
+[2025-04-03 10:35:21,343.343] INFO [2660] - 1 change detected
+[2025-04-03 10:35:21,724.724] INFO [2660] - 1 change detected
+[2025-04-03 10:35:22,135.135] INFO [2660] - 1 change detected
+[2025-04-03 10:35:22,491.491] INFO [2660] - 1 change detected
+[2025-04-03 10:35:22,849.849] INFO [2660] - 1 change detected
+[2025-04-03 10:35:23,208.208] INFO [2660] - 1 change detected
+[2025-04-03 10:35:23,568.568] INFO [2660] - 1 change detected
+[2025-04-03 10:35:23,919.919] INFO [2660] - 1 change detected
+[2025-04-03 10:35:24,270.270] INFO [2660] - 1 change detected
+[2025-04-03 10:35:24,630.630] INFO [2660] - 1 change detected
+[2025-04-03 10:35:24,991.991] INFO [2660] - 1 change detected
+[2025-04-03 10:35:25,349.349] INFO [2660] - 1 change detected
+[2025-04-03 10:35:25,712.712] INFO [2660] - 1 change detected
+[2025-04-03 10:35:26,078.078] INFO [2660] - 1 change detected
+[2025-04-03 10:35:26,436.436] INFO [2660] - 1 change detected
+[2025-04-03 10:35:26,792.792] INFO [2660] - 1 change detected
+[2025-04-03 10:35:27,152.152] INFO [2660] - 1 change detected
+[2025-04-03 10:35:27,520.520] INFO [2660] - 1 change detected
+[2025-04-03 10:35:27,897.897] INFO [2660] - 1 change detected
+[2025-04-03 10:35:28,258.258] INFO [2660] - 1 change detected
+[2025-04-03 10:35:28,638.638] INFO [2660] - 1 change detected
+[2025-04-03 10:35:29,000.000] INFO [2660] - 1 change detected
+[2025-04-03 10:35:29,365.365] INFO [2660] - 1 change detected
+[2025-04-03 10:35:29,729.729] INFO [2660] - 1 change detected
+[2025-04-03 10:35:30,097.097] INFO [2660] - 1 change detected
+[2025-04-03 10:35:30,448.448] INFO [2660] - 1 change detected
+[2025-04-03 10:35:30,806.806] INFO [2660] - 1 change detected
+[2025-04-03 10:35:31,177.177] INFO [2660] - 1 change detected
+[2025-04-03 10:35:31,536.536] INFO [2660] - 1 change detected
+[2025-04-03 10:35:31,897.897] INFO [2660] - 1 change detected
+[2025-04-03 10:35:32,262.262] INFO [2660] - 1 change detected
+[2025-04-03 10:35:32,617.617] INFO [2660] - 1 change detected
+[2025-04-03 10:35:32,980.980] INFO [2660] - 1 change detected
+[2025-04-03 10:35:33,369.369] INFO [2660] - 1 change detected
+[2025-04-03 10:35:33,732.732] INFO [2660] - 1 change detected
+[2025-04-03 10:35:34,102.102] INFO [2660] - 1 change detected
+[2025-04-03 10:35:34,465.465] INFO [2660] - 1 change detected
+[2025-04-03 10:35:34,836.836] INFO [2660] - 1 change detected
+[2025-04-03 10:35:35,207.207] INFO [2660] - 1 change detected
+[2025-04-03 10:35:35,584.584] INFO [2660] - 1 change detected
+[2025-04-03 10:35:35,943.943] INFO [2660] - 1 change detected
+[2025-04-03 10:35:36,356.356] INFO [2660] - 1 change detected
+[2025-04-03 10:35:36,772.772] INFO [2660] - 1 change detected
+[2025-04-03 10:35:37,131.131] INFO [2660] - 1 change detected
+[2025-04-03 10:35:37,544.544] INFO [2660] - 1 change detected
+[2025-04-03 10:35:37,946.946] INFO [2660] - 1 change detected
+[2025-04-03 10:35:38,352.352] INFO [2660] - 1 change detected
+[2025-04-03 10:35:38,808.808] INFO [2660] - 1 change detected
+[2025-04-03 10:35:39,178.178] INFO [2660] - 1 change detected
+[2025-04-03 10:35:39,604.604] INFO [2660] - 1 change detected
+[2025-04-03 10:35:39,990.990] INFO [2660] - 1 change detected
+[2025-04-03 10:35:40,394.394] INFO [2660] - 1 change detected
+[2025-04-03 10:35:40,801.801] INFO [2660] - 1 change detected
+[2025-04-03 10:35:41,206.206] INFO [2660] - 1 change detected
+[2025-04-03 10:35:41,672.672] INFO [2660] - 1 change detected
+[2025-04-03 10:35:42,037.037] INFO [2660] - 1 change detected
+[2025-04-03 10:35:42,451.451] INFO [2660] - 1 change detected
+[2025-04-03 10:35:42,862.862] INFO [2660] - 1 change detected
+[2025-04-03 10:35:43,277.277] INFO [2660] - 1 change detected
+[2025-04-03 10:35:43,646.646] INFO [2660] - 1 change detected
+[2025-04-03 10:35:44,058.058] INFO [2660] - 1 change detected
+[2025-04-03 10:35:44,462.462] INFO [2660] - 1 change detected
+[2025-04-03 10:35:44,873.873] INFO [2660] - 1 change detected
+[2025-04-03 10:35:45,280.280] INFO [2660] - 1 change detected
+[2025-04-03 10:35:45,681.681] INFO [2660] - 1 change detected
+[2025-04-03 10:35:46,087.087] INFO [2660] - 1 change detected
+[2025-04-03 10:35:46,494.494] INFO [2660] - 1 change detected
+[2025-04-03 10:35:46,914.914] INFO [2660] - 1 change detected
+[2025-04-03 10:35:47,325.325] INFO [2660] - 1 change detected
+[2025-04-03 10:35:47,788.788] INFO [2660] - 1 change detected
+[2025-04-03 10:35:48,298.298] INFO [2660] - 1 change detected
+[2025-04-03 10:35:48,756.756] INFO [2660] - 1 change detected
+[2025-04-03 10:35:49,170.170] INFO [2660] - 1 change detected
+[2025-04-03 10:35:49,585.585] INFO [2660] - 1 change detected
+[2025-04-03 10:35:49,950.950] INFO [2660] - 1 change detected
+[2025-04-03 10:35:50,352.352] INFO [2660] - 1 change detected
+[2025-04-03 10:35:50,763.763] INFO [2660] - 1 change detected
+[2025-04-03 10:35:51,171.171] INFO [2660] - 1 change detected
+[2025-04-03 10:35:51,575.575] INFO [2660] - 1 change detected
+[2025-04-03 10:35:51,986.986] INFO [2660] - 1 change detected
+[2025-04-03 10:35:52,400.400] INFO [2660] - 1 change detected
+[2025-04-03 10:35:52,809.809] INFO [2660] - 1 change detected
+[2025-04-03 10:35:53,225.225] INFO [2660] - 1 change detected
+[2025-04-03 10:35:53,633.633] INFO [2660] - 1 change detected
+[2025-04-03 10:35:54,043.043] INFO [2660] - 1 change detected
+[2025-04-03 10:35:54,500.500] INFO [2660] - 1 change detected
+[2025-04-03 10:35:54,855.855] INFO [2660] - 1 change detected
+[2025-04-03 10:35:55,311.311] INFO [2660] - 1 change detected
+[2025-04-03 10:35:55,663.663] INFO [2660] - 1 change detected
+[2025-04-03 10:35:55,664.664] WARNING [2660] - WatchFiles detected changes in 'main.py'. Reloading...
+[2025-04-03 10:35:55,738.738] INFO [11508] - Shutting down
+[2025-04-03 10:35:55,845.845] INFO [11508] - Waiting for application shutdown.
+[2025-04-03 10:35:55,845.845] INFO [11508] - Application shutdown complete.
+[2025-04-03 10:35:55,846.846] INFO [11508] - Finished server process [12132]
+[2025-04-03 10:35:56,290.290] INFO [2660] - 1 change detected
+[2025-04-03 10:35:56,685.685] INFO [5140] - Started server process [13088]
+[2025-04-03 10:35:56,685.685] INFO [5140] - Waiting for application startup.
+[2025-04-03 10:35:56,685.685] INFO [5140] - Application startup complete.
+[2025-04-03 10:35:56,754.754] INFO [2660] - 6 changes detected
+[2025-04-03 10:35:57,215.215] INFO [2660] - 1 change detected
+[2025-04-03 10:35:57,389.389] INFO [5140] - Shutting down
+[2025-04-03 10:35:57,501.501] INFO [5140] - Waiting for application shutdown.
+[2025-04-03 10:35:57,502.502] INFO [5140] - Application shutdown complete.
+[2025-04-03 10:35:57,502.502] INFO [5140] - Finished server process [13088]
+[2025-04-03 10:35:57,588.588] INFO [2660] - Stopping reloader process [4292]
+[2025-04-03 10:35:59,506.506] INFO [6548] - Started server process [12396]
+[2025-04-03 10:35:59,506.506] INFO [6548] - Waiting for application startup.
+[2025-04-03 10:35:59,506.506] INFO [6548] - Application startup complete.
+[2025-04-03 10:35:59,506.506] INFO [6548] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:36:06,406.406] INFO [6548] - 127.0.0.1:50776 - "GET /hello HTTP/1.1" 404
+[2025-04-03 10:36:08,480.480] INFO [6548] - 127.0.0.1:50776 - "GET /hello HTTP/1.1" 404
+[2025-04-03 10:43:17,526.526] INFO [6548] - Shutting down
+[2025-04-03 10:43:17,639.639] INFO [6548] - Waiting for application shutdown.
+[2025-04-03 10:43:17,639.639] INFO [6548] - Application shutdown complete.
+[2025-04-03 10:43:17,640.640] INFO [6548] - Finished server process [12396]
+[2025-04-03 10:43:49,409.409] INFO [13124] - Started server process [8816]
+[2025-04-03 10:43:49,409.409] INFO [13124] - Waiting for application startup.
+[2025-04-03 10:43:49,410.410] INFO [13124] - Application startup complete.
+[2025-04-03 10:43:49,411.411] INFO [13124] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:44:16,919.919] INFO [13124] - Shutting down
+[2025-04-03 10:44:17,032.032] INFO [13124] - Waiting for application shutdown.
+[2025-04-03 10:44:17,032.032] INFO [13124] - Application shutdown complete.
+[2025-04-03 10:44:17,033.033] INFO [13124] - Finished server process [8816]
+[2025-04-03 10:44:26,422.422] INFO [8680] - Started server process [12456]
+[2025-04-03 10:44:26,422.422] INFO [8680] - Waiting for application startup.
+[2025-04-03 10:44:26,423.423] INFO [8680] - Application startup complete.
+[2025-04-03 10:44:26,427.427] INFO [8680] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:54:15,187.187] INFO [8680] - Shutting down
+[2025-04-03 10:54:15,298.298] INFO [8680] - Waiting for application shutdown.
+[2025-04-03 10:54:15,299.299] INFO [8680] - Application shutdown complete.
+[2025-04-03 10:54:15,299.299] INFO [8680] - Finished server process [12456]
+[2025-04-03 10:56:32,678.678] INFO [12192] - Started server process [11656]
+[2025-04-03 10:56:32,678.678] INFO [12192] - Waiting for application startup.
+[2025-04-03 10:56:32,679.679] INFO [12192] - Application startup complete.
+[2025-04-03 10:56:32,680.680] INFO [12192] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 10:56:45,856.856] INFO [12192] - Shutting down
+[2025-04-03 10:56:45,968.968] INFO [12192] - Waiting for application shutdown.
+[2025-04-03 10:56:45,968.968] INFO [12192] - Application shutdown complete.
+[2025-04-03 10:56:45,968.968] INFO [12192] - Finished server process [11656]
+[2025-04-03 11:34:39,641.641] INFO [11456] - Started server process [540]
+[2025-04-03 11:34:39,642.642] INFO [11456] - Waiting for application startup.
+[2025-04-03 11:34:39,642.642] INFO [11456] - Application startup complete.
+[2025-04-03 11:34:39,642.642] INFO [11456] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 11:35:11,280.280] INFO [11456] - Shutting down
+[2025-04-03 11:35:11,383.383] INFO [11456] - Waiting for application shutdown.
+[2025-04-03 11:35:11,384.384] INFO [11456] - Application shutdown complete.
+[2025-04-03 11:35:11,388.388] INFO [11456] - Finished server process [540]
+[2025-04-03 11:35:53,691.691] INFO [9684] - Started server process [13992]
+[2025-04-03 11:35:53,692.692] INFO [9684] - Waiting for application startup.
+[2025-04-03 11:35:53,694.694] INFO [9684] - Application startup complete.
+[2025-04-03 11:35:53,695.695] INFO [9684] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 11:36:11,848.848] INFO [9684] - 127.0.0.1:51192 - "GET / HTTP/1.1" 200
+[2025-04-03 11:36:11,918.918] INFO [9684] - 127.0.0.1:51192 - "GET /favicon.ico HTTP/1.1" 404
+[2025-04-03 11:36:18,664.664] INFO [9684] - 127.0.0.1:51193 - "GET /chat HTTP/1.1" 200
+[2025-04-03 13:20:21,427.427] INFO [9684] - Shutting down
+[2025-04-03 13:20:21,533.533] INFO [9684] - Waiting for application shutdown.
+[2025-04-03 13:20:21,533.533] INFO [9684] - Application shutdown complete.
+[2025-04-03 13:20:21,534.534] INFO [9684] - Finished server process [13992]
+[2025-04-03 13:53:16,850.850] ERROR [9456] - Error loading ASGI app. Could not import module "main".
+[2025-04-03 13:56:37,415.415] ERROR [2764] - Error loading ASGI app. Could not import module "main".
+[2025-04-03 14:01:25,877.877] INFO [15620] - Started server process [14904]
+[2025-04-03 14:01:25,879.879] INFO [15620] - Waiting for application startup.
+[2025-04-03 14:01:25,880.880] INFO [15620] - Application startup complete.
+[2025-04-03 14:01:25,880.880] INFO [15620] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 14:01:36,313.313] INFO [15620] - 127.0.0.1:52150 - "GET / HTTP/1.1" 200
+[2025-04-03 14:01:39,050.050] INFO [15620] - Shutting down
+[2025-04-03 14:01:39,191.191] INFO [15620] - Waiting for application shutdown.
+[2025-04-03 14:01:39,192.192] INFO [15620] - Application shutdown complete.
+[2025-04-03 14:01:39,192.192] INFO [15620] - Finished server process [14904]
+[2025-04-03 14:03:30,877.877] INFO [13792] - Started server process [15832]
+[2025-04-03 14:03:30,877.877] INFO [13792] - Waiting for application startup.
+[2025-04-03 14:03:30,878.878] INFO [13792] - Application startup complete.
+[2025-04-03 14:03:30,878.878] INFO [13792] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 14:12:13,769.769] INFO [13792] - 127.0.0.1:52255 - "GET /chat HTTP/1.1" 200
+[2025-04-03 14:15:17,454.454] INFO [13792] - Shutting down
+[2025-04-03 14:15:17,570.570] INFO [13792] - Waiting for application shutdown.
+[2025-04-03 14:15:17,570.570] INFO [13792] - Application shutdown complete.
+[2025-04-03 14:15:17,571.571] INFO [13792] - Finished server process [15832]
+[2025-04-03 14:16:29,986.986] INFO [16060] - Started server process [12876]
+[2025-04-03 14:16:29,987.987] INFO [16060] - Waiting for application startup.
+[2025-04-03 14:16:29,987.987] INFO [16060] - Application startup complete.
+[2025-04-03 14:16:29,988.988] INFO [16060] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 14:25:02,286.286] INFO [16060] - Shutting down
+[2025-04-03 14:25:02,396.396] INFO [16060] - Waiting for application shutdown.
+[2025-04-03 14:25:02,396.396] INFO [16060] - Application shutdown complete.
+[2025-04-03 14:25:02,397.397] INFO [16060] - Finished server process [12876]
+[2025-04-03 15:13:20,744.744] INFO [9748] - Started server process [15036]
+[2025-04-03 15:13:20,744.744] INFO [9748] - Waiting for application startup.
+[2025-04-03 15:13:20,745.745] INFO [9748] - Application startup complete.
+[2025-04-03 15:13:20,746.746] INFO [9748] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:13:21,897.897] INFO [9748] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:13:21,906.906] INFO [9748] - 127.0.0.1:52614 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:13:21,906.906] ERROR [9748] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 14, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:13:21,999.999] INFO [9748] - 127.0.0.1:52612 - "GET /favicon.ico HTTP/1.1" 404
+[2025-04-03 15:13:51,381.381] INFO [9748] - Shutting down
+[2025-04-03 15:13:51,493.493] INFO [9748] - Waiting for application shutdown.
+[2025-04-03 15:13:51,494.494] INFO [9748] - Application shutdown complete.
+[2025-04-03 15:13:51,495.495] INFO [9748] - Finished server process [15036]
+[2025-04-03 15:13:56,762.762] INFO [15324] - Started server process [15228]
+[2025-04-03 15:13:56,771.771] INFO [15324] - Waiting for application startup.
+[2025-04-03 15:13:56,772.772] INFO [15324] - Application startup complete.
+[2025-04-03 15:13:56,773.773] INFO [15324] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:13:57,262.262] INFO [15324] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:13:57,271.271] INFO [15324] - 127.0.0.1:52626 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:13:57,271.271] ERROR [15324] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 14, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:14:36,867.867] INFO [15324] - Shutting down
+[2025-04-03 15:14:36,983.983] INFO [15324] - Waiting for application shutdown.
+[2025-04-03 15:14:36,984.984] INFO [15324] - Application shutdown complete.
+[2025-04-03 15:14:36,984.984] INFO [15324] - Finished server process [15228]
+[2025-04-03 15:14:42,291.291] INFO [7828] - Started server process [7184]
+[2025-04-03 15:14:42,292.292] INFO [7828] - Waiting for application startup.
+[2025-04-03 15:14:42,292.292] INFO [7828] - Application startup complete.
+[2025-04-03 15:14:42,293.293] INFO [7828] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:14:42,808.808] INFO [7828] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:14:42,817.817] INFO [7828] - 127.0.0.1:52641 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:14:42,819.819] ERROR [7828] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 16, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:16:21,778.778] INFO [7828] - Shutting down
+[2025-04-03 15:16:21,925.925] INFO [7828] - Waiting for application shutdown.
+[2025-04-03 15:16:21,940.940] INFO [7828] - Application shutdown complete.
+[2025-04-03 15:16:21,956.956] INFO [7828] - Finished server process [7184]
+[2025-04-03 15:16:28,998.998] INFO [12356] - Started server process [6128]
+[2025-04-03 15:16:28,998.998] INFO [12356] - Waiting for application startup.
+[2025-04-03 15:16:28,999.999] INFO [12356] - Application startup complete.
+[2025-04-03 15:16:28,999.999] INFO [12356] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:16:30,170.170] INFO [12356] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:16:30,182.182] INFO [12356] - 127.0.0.1:52658 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:16:30,183.183] ERROR [12356] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 16, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:19:49,766.766] INFO [12356] - Shutting down
+[2025-04-03 15:19:49,875.875] INFO [12356] - Waiting for application shutdown.
+[2025-04-03 15:19:49,875.875] INFO [12356] - Application shutdown complete.
+[2025-04-03 15:19:49,876.876] INFO [12356] - Finished server process [6128]
+[2025-04-03 15:21:03,704.704] INFO [5296] - Started server process [12872]
+[2025-04-03 15:21:03,704.704] INFO [5296] - Waiting for application startup.
+[2025-04-03 15:21:03,705.705] INFO [5296] - Application startup complete.
+[2025-04-03 15:21:03,706.706] INFO [5296] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:21:15,959.959] INFO [5296] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:21:15,970.970] INFO [5296] - 127.0.0.1:52685 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:21:15,971.971] ERROR [5296] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:21:36,799.799] INFO [5296] - Shutting down
+[2025-04-03 15:21:36,908.908] INFO [5296] - Waiting for application shutdown.
+[2025-04-03 15:21:36,908.908] INFO [5296] - Application shutdown complete.
+[2025-04-03 15:21:36,909.909] INFO [5296] - Finished server process [12872]
+[2025-04-03 15:21:42,229.229] INFO [13268] - Started server process [13892]
+[2025-04-03 15:21:42,230.230] INFO [13268] - Waiting for application startup.
+[2025-04-03 15:21:42,230.230] INFO [13268] - Application startup complete.
+[2025-04-03 15:21:42,230.230] INFO [13268] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:21:44,688.688] INFO [13268] - 127.0.0.1:52696 - "GET /hello HTTP/1.1" 404
+[2025-04-03 15:21:49,216.216] INFO [13268] - 127.0.0.1:52696 - "GET /hello HTTP/1.1" 404
+[2025-04-03 15:22:04,263.263] INFO [13268] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:22:04,273.273] INFO [13268] - 127.0.0.1:52697 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:22:04,273.273] ERROR [13268] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:22:45,706.706] INFO [13268] - Shutting down
+[2025-04-03 15:22:45,816.816] INFO [13268] - Waiting for application shutdown.
+[2025-04-03 15:22:45,816.816] INFO [13268] - Application shutdown complete.
+[2025-04-03 15:22:45,817.817] INFO [13268] - Finished server process [13892]
+[2025-04-03 15:22:51,247.247] INFO [3108] - Started server process [13732]
+[2025-04-03 15:22:51,247.247] INFO [3108] - Waiting for application startup.
+[2025-04-03 15:22:51,250.250] INFO [3108] - Application startup complete.
+[2025-04-03 15:22:51,254.254] INFO [3108] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:22:53,199.199] INFO [3108] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:22:53,208.208] INFO [3108] - 127.0.0.1:52714 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:22:53,209.209] ERROR [3108] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke("hello")
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:23:45,747.747] INFO [3108] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:23:45,750.750] INFO [3108] - 127.0.0.1:52715 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:23:45,751.751] ERROR [3108] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:23:48,136.136] INFO [3108] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:23:48,139.139] INFO [3108] - 127.0.0.1:52718 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:23:48,139.139] ERROR [3108] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:23:49,889.889] INFO [3108] - Shutting down
+[2025-04-03 15:23:49,999.999] INFO [3108] - Waiting for application shutdown.
+[2025-04-03 15:23:49,999.999] INFO [3108] - Application shutdown complete.
+[2025-04-03 15:23:50,000.000] INFO [3108] - Finished server process [13732]
+[2025-04-03 15:23:55,679.679] INFO [5268] - Started server process [16084]
+[2025-04-03 15:23:55,680.680] INFO [5268] - Waiting for application startup.
+[2025-04-03 15:23:55,680.680] INFO [5268] - Application startup complete.
+[2025-04-03 15:23:55,681.681] INFO [5268] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:24:04,566.566] INFO [5268] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:24:04,575.575] INFO [5268] - 127.0.0.1:52732 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:24:04,576.576] ERROR [5268] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:24:31,353.353] INFO [5268] - Shutting down
+[2025-04-03 15:24:31,470.470] INFO [5268] - Waiting for application shutdown.
+[2025-04-03 15:24:31,471.471] INFO [5268] - Application shutdown complete.
+[2025-04-03 15:24:31,472.472] INFO [5268] - Finished server process [16084]
+[2025-04-03 15:24:37,872.872] INFO [6548] - Started server process [15068]
+[2025-04-03 15:24:37,873.873] INFO [6548] - Waiting for application startup.
+[2025-04-03 15:24:37,873.873] INFO [6548] - Application startup complete.
+[2025-04-03 15:24:37,874.874] INFO [6548] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:24:40,923.923] INFO [6548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:24:40,932.932] INFO [6548] - 127.0.0.1:52746 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:24:40,933.933] ERROR [6548] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:25:10,417.417] INFO [6548] - Shutting down
+[2025-04-03 15:25:10,519.519] INFO [6548] - Waiting for application shutdown.
+[2025-04-03 15:25:10,519.519] INFO [6548] - Application shutdown complete.
+[2025-04-03 15:25:10,520.520] INFO [6548] - Finished server process [15068]
+[2025-04-03 15:25:37,726.726] INFO [15428] - Started server process [824]
+[2025-04-03 15:25:37,726.726] INFO [15428] - Waiting for application startup.
+[2025-04-03 15:25:37,731.731] INFO [15428] - Application startup complete.
+[2025-04-03 15:25:37,731.731] INFO [15428] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:25:43,850.850] INFO [15428] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:25:43,859.859] INFO [15428] - 127.0.0.1:52778 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:25:43,859.859] ERROR [15428] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:26:09,924.924] INFO [15428] - Shutting down
+[2025-04-03 15:26:10,034.034] INFO [15428] - Waiting for application shutdown.
+[2025-04-03 15:26:10,034.034] INFO [15428] - Application shutdown complete.
+[2025-04-03 15:26:10,035.035] INFO [15428] - Finished server process [824]
+[2025-04-03 15:26:13,172.172] INFO [7792] - Started server process [14988]
+[2025-04-03 15:26:13,173.173] INFO [7792] - Waiting for application startup.
+[2025-04-03 15:26:13,173.173] INFO [7792] - Application startup complete.
+[2025-04-03 15:26:13,174.174] INFO [7792] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:26:21,906.906] INFO [7792] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:26:21,915.915] INFO [7792] - 127.0.0.1:52790 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:26:21,916.916] ERROR [7792] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:28:49,346.346] INFO [7792] - Shutting down
+[2025-04-03 15:28:49,455.455] INFO [7792] - Waiting for application shutdown.
+[2025-04-03 15:28:49,455.455] INFO [7792] - Application shutdown complete.
+[2025-04-03 15:28:49,456.456] INFO [7792] - Finished server process [14988]
+[2025-04-03 15:30:47,327.327] INFO [14608] - Started server process [16876]
+[2025-04-03 15:30:47,328.328] INFO [14608] - Waiting for application startup.
+[2025-04-03 15:30:47,329.329] INFO [14608] - Application startup complete.
+[2025-04-03 15:30:47,329.329] INFO [14608] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:32:20,835.835] INFO [14608] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:32:20,847.847] INFO [14608] - 127.0.0.1:52962 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:32:20,849.849] ERROR [14608] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:35:17,976.976] INFO [14608] - Shutting down
+[2025-04-03 15:35:18,087.087] INFO [14608] - Waiting for application shutdown.
+[2025-04-03 15:35:18,087.087] INFO [14608] - Application shutdown complete.
+[2025-04-03 15:35:18,088.088] INFO [14608] - Finished server process [16876]
+[2025-04-03 15:35:22,863.863] INFO [17392] - Started server process [15604]
+[2025-04-03 15:35:22,863.863] INFO [17392] - Waiting for application startup.
+[2025-04-03 15:35:22,864.864] INFO [17392] - Application startup complete.
+[2025-04-03 15:35:22,865.865] INFO [17392] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:35:28,708.708] INFO [17392] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:35:28,717.717] INFO [17392] - 127.0.0.1:53045 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:35:28,718.718] ERROR [17392] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:35:32,099.099] INFO [17392] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+[2025-04-03 15:35:32,102.102] INFO [17392] - 127.0.0.1:53046 - "GET /chat HTTP/1.1" 500
+[2025-04-03 15:35:32,103.103] ERROR [17392] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat.py", line 17, in chat
+    result = model.invoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 310, in invoke
+    self.generate_prompt(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 859, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 694, in generate
+    self._generate_with_cache(
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 925, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 955, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_NKNrjP0A0RNjy3NhNYpG2lpa` does not have access to model `gpt-3.5-turbo`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-04-03 15:37:28,676.676] INFO [17392] - Shutting down
+[2025-04-03 15:37:28,787.787] INFO [17392] - Waiting for application shutdown.
+[2025-04-03 15:37:28,787.787] INFO [17392] - Application shutdown complete.
+[2025-04-03 15:37:28,788.788] INFO [17392] - Finished server process [15604]
+[2025-04-03 15:47:10,798.798] INFO [15404] - Started server process [13848]
+[2025-04-03 15:47:10,798.798] INFO [15404] - Waiting for application startup.
+[2025-04-03 15:47:10,799.799] INFO [15404] - Application startup complete.
+[2025-04-03 15:47:10,799.799] INFO [15404] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:47:21,126.126] INFO [15404] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:47:21,144.144] INFO [15404] - 127.0.0.1:53155 - "GET /chat HTTP/1.1" 200
+[2025-04-03 15:47:21,175.175] INFO [15404] - 127.0.0.1:53155 - "GET /favicon.ico HTTP/1.1" 404
+[2025-04-03 15:48:30,576.576] INFO [15404] - Shutting down
+[2025-04-03 15:48:30,683.683] INFO [15404] - Waiting for application shutdown.
+[2025-04-03 15:48:30,683.683] INFO [15404] - Application shutdown complete.
+[2025-04-03 15:48:30,684.684] INFO [15404] - Finished server process [13848]
+[2025-04-03 15:48:33,694.694] INFO [12312] - Started server process [8512]
+[2025-04-03 15:48:33,695.695] INFO [12312] - Waiting for application startup.
+[2025-04-03 15:48:33,695.695] INFO [12312] - Application startup complete.
+[2025-04-03 15:48:33,696.696] INFO [12312] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:48:38,875.875] INFO [12312] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:48:38,885.885] INFO [12312] - 127.0.0.1:53168 - "GET /chat HTTP/1.1" 200
+[2025-04-03 15:48:44,353.353] INFO [12312] - Shutting down
+[2025-04-03 15:48:44,461.461] INFO [12312] - Waiting for application shutdown.
+[2025-04-03 15:48:44,461.461] INFO [12312] - Application shutdown complete.
+[2025-04-03 15:48:44,462.462] INFO [12312] - Finished server process [8512]
+[2025-04-03 15:50:45,168.168] INFO [15580] - Started server process [14340]
+[2025-04-03 15:50:45,168.168] INFO [15580] - Waiting for application startup.
+[2025-04-03 15:50:45,169.169] INFO [15580] - Application startup complete.
+[2025-04-03 15:50:45,170.170] INFO [15580] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:50:55,084.084] INFO [15580] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:50:55,093.093] INFO [15580] - 127.0.0.1:53201 - "GET /chat HTTP/1.1" 200
+[2025-04-03 15:50:59,621.621] INFO [15580] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:50:59,644.644] INFO [15580] - 127.0.0.1:53201 - "GET /chat HTTP/1.1" 200
+[2025-04-03 15:51:21,266.266] INFO [15580] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:51:21,272.272] INFO [15580] - 127.0.0.1:53202 - "GET /chat HTTP/1.1" 200
+[2025-04-03 15:51:22,376.376] INFO [15580] - Shutting down
+[2025-04-03 15:51:22,487.487] INFO [15580] - Waiting for application shutdown.
+[2025-04-03 15:51:22,487.487] INFO [15580] - Application shutdown complete.
+[2025-04-03 15:51:22,488.488] INFO [15580] - Finished server process [14340]
+[2025-04-03 15:51:26,054.054] INFO [16220] - Started server process [16312]
+[2025-04-03 15:51:26,054.054] INFO [16220] - Waiting for application startup.
+[2025-04-03 15:51:26,055.055] INFO [16220] - Application startup complete.
+[2025-04-03 15:51:26,055.055] INFO [16220] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:51:31,280.280] INFO [16220] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:51:31,590.590] INFO [16220] - 127.0.0.1:53212 - "GET /chat HTTP/1.1" 200
+[2025-04-03 15:53:54,481.481] INFO [16220] - Shutting down
+[2025-04-03 15:53:54,591.591] INFO [16220] - Waiting for application shutdown.
+[2025-04-03 15:53:54,591.591] INFO [16220] - Application shutdown complete.
+[2025-04-03 15:53:54,592.592] INFO [16220] - Finished server process [16312]
+[2025-04-03 15:53:58,027.027] INFO [13640] - Started server process [16520]
+[2025-04-03 15:53:58,028.028] INFO [13640] - Waiting for application startup.
+[2025-04-03 15:53:58,028.028] INFO [13640] - Application startup complete.
+[2025-04-03 15:53:58,029.029] INFO [13640] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 15:54:10,311.311] INFO [13640] - 127.0.0.1:53233 - "GET / HTTP/1.1" 200
+[2025-04-03 15:54:18,384.384] INFO [13640] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 15:54:18,682.682] INFO [13640] - 127.0.0.1:53234 - "GET /chat HTTP/1.1" 200
+[2025-04-03 16:23:59,818.818] INFO [13640] - Shutting down
+[2025-04-03 16:23:59,928.928] INFO [13640] - Waiting for application shutdown.
+[2025-04-03 16:23:59,929.929] INFO [13640] - Application shutdown complete.
+[2025-04-03 16:23:59,929.929] INFO [13640] - Finished server process [16520]
+[2025-04-03 17:35:45,594.594] INFO [15548] - Started server process [16412]
+[2025-04-03 17:35:45,594.594] INFO [15548] - Waiting for application startup.
+[2025-04-03 17:35:45,595.595] INFO [15548] - Application startup complete.
+[2025-04-03 17:35:45,596.596] INFO [15548] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:36:05,103.103] INFO [15548] - 127.0.0.1:53807 - "GET /chat HTTP/1.1" 404
+[2025-04-03 17:36:17,817.817] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:36:17,835.835] INFO [15548] - 127.0.0.1:53808 - "GET /chat/test?query=%22%EC%95%88%EB%85%95?%22 HTTP/1.1" 200
+[2025-04-03 17:36:44,800.800] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:36:44,808.808] INFO [15548] - 127.0.0.1:53813 - "GET /chat/test?query=%22%EB%82%B4%EC%9D%B4%EB%A6%84%EC%9D%80%20%EB%A5%98%EC%9E%AC%EC%A0%95%EC%9D%B4%EC%95%BC%22 HTTP/1.1" 200
+[2025-04-03 17:36:57,769.769] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:36:57,776.776] INFO [15548] - 127.0.0.1:53817 - "GET /chat/test?query=%22%EB%82%B4%EC%9D%B4%EB%A6%84%EC%9D%B4%20%EB%AD%90%EB%9D%BC%EA%B3%A0?%22 HTTP/1.1" 200
+[2025-04-03 17:37:11,923.923] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:37:11,931.931] INFO [15548] - 127.0.0.1:53820 - "GET /chat/test2?query=%22%EB%82%B4%EC%9D%B4%EB%A6%84%EC%9D%B4%20%EB%AD%90%EB%9D%BC%EA%B3%A0?%22 HTTP/1.1" 200
+[2025-04-03 17:37:25,615.615] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:37:25,628.628] INFO [15548] - 127.0.0.1:53824 - "GET /chat/test?query=%22%EB%A7%9E%EC%95%84%22 HTTP/1.1" 200
+[2025-04-03 17:39:31,933.933] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:39:31,939.939] INFO [15548] - 127.0.0.1:53841 - "GET /chat/test?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:39:49,562.562] INFO [15548] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:39:49,568.568] INFO [15548] - 127.0.0.1:53842 - "GET /chat/test5?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:39:57,395.395] INFO [15548] - 127.0.0.1:53844 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 404
+[2025-04-03 17:43:52,560.560] INFO [15548] - 127.0.0.1:53896 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 404
+[2025-04-03 17:43:56,033.033] INFO [15548] - Shutting down
+[2025-04-03 17:43:56,142.142] INFO [15548] - Waiting for application shutdown.
+[2025-04-03 17:43:56,142.142] INFO [15548] - Application shutdown complete.
+[2025-04-03 17:43:56,142.142] INFO [15548] - Finished server process [16412]
+[2025-04-03 17:44:02,560.560] INFO [18408] - Started server process [15724]
+[2025-04-03 17:44:02,560.560] INFO [18408] - Waiting for application startup.
+[2025-04-03 17:44:02,561.561] INFO [18408] - Application startup complete.
+[2025-04-03 17:44:02,562.562] INFO [18408] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:44:04,675.675] INFO [18408] - 127.0.0.1:53906 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 404
+[2025-04-03 17:44:34,853.853] INFO [18408] - 127.0.0.1:53907 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 404
+[2025-04-03 17:44:42,123.123] INFO [18408] - Shutting down
+[2025-04-03 17:44:42,233.233] INFO [18408] - Waiting for application shutdown.
+[2025-04-03 17:44:42,234.234] INFO [18408] - Application shutdown complete.
+[2025-04-03 17:44:42,234.234] INFO [18408] - Finished server process [15724]
+[2025-04-03 17:44:47,926.926] INFO [17784] - Started server process [12996]
+[2025-04-03 17:44:47,927.927] INFO [17784] - Waiting for application startup.
+[2025-04-03 17:44:47,928.928] INFO [17784] - Application startup complete.
+[2025-04-03 17:44:47,928.928] INFO [17784] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:44:49,924.924] INFO [17784] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:44:49,953.953] INFO [17784] - 127.0.0.1:53920 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:45:21,710.710] INFO [17784] - Shutting down
+[2025-04-03 17:45:21,820.820] INFO [17784] - Waiting for application shutdown.
+[2025-04-03 17:45:21,820.820] INFO [17784] - Application shutdown complete.
+[2025-04-03 17:45:21,821.821] INFO [17784] - Finished server process [12996]
+[2025-04-03 17:45:27,320.320] INFO [7684] - Started server process [17224]
+[2025-04-03 17:45:27,321.321] INFO [7684] - Waiting for application startup.
+[2025-04-03 17:45:27,321.321] INFO [7684] - Application startup complete.
+[2025-04-03 17:45:27,322.322] INFO [7684] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:45:32,912.912] INFO [7684] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:45:32,925.925] INFO [7684] - 127.0.0.1:53932 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:45:58,336.336] INFO [7684] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:45:58,344.344] INFO [7684] - 127.0.0.1:53933 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:46:25,149.149] INFO [7684] - Shutting down
+[2025-04-03 17:46:25,259.259] INFO [7684] - Waiting for application shutdown.
+[2025-04-03 17:46:25,259.259] INFO [7684] - Application shutdown complete.
+[2025-04-03 17:46:25,260.260] INFO [7684] - Finished server process [17224]
+[2025-04-03 17:46:31,253.253] INFO [13124] - Started server process [17664]
+[2025-04-03 17:46:31,254.254] INFO [13124] - Waiting for application startup.
+[2025-04-03 17:46:31,254.254] INFO [13124] - Application startup complete.
+[2025-04-03 17:46:31,255.255] INFO [13124] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:46:37,035.035] INFO [13124] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:46:37,047.047] INFO [13124] - 127.0.0.1:53951 - "GET /chat?query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:47:11,791.791] INFO [13124] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:47:11,801.801] INFO [13124] - 127.0.0.1:53952 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B4%90%22 HTTP/1.1" 200
+[2025-04-03 17:47:42,816.816] INFO [13124] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:47:42,822.822] INFO [13124] - 127.0.0.1:53963 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22%EB%82%98%EB%8A%94%20%EC%82%AC%EB%9E%8C%EC%9E%84%22 HTTP/1.1" 200
+[2025-04-03 17:47:56,223.223] INFO [13124] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:47:56,230.230] INFO [13124] - 127.0.0.1:53965 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22%EB%82%98%EB%8A%94%20%EC%82%AC%EB%9E%8C%EC%9E%84%22 HTTP/1.1" 200
+[2025-04-03 17:58:48,725.725] INFO [13124] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:58:48,735.735] INFO [13124] - 127.0.0.1:54030 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 200
+[2025-04-03 17:58:55,878.878] INFO [13124] - Shutting down
+[2025-04-03 17:58:55,987.987] INFO [13124] - Waiting for application shutdown.
+[2025-04-03 17:58:55,987.987] INFO [13124] - Application shutdown complete.
+[2025-04-03 17:58:55,988.988] INFO [13124] - Finished server process [17664]
+[2025-04-03 17:59:01,723.723] INFO [10772] - Started server process [18396]
+[2025-04-03 17:59:01,723.723] INFO [10772] - Waiting for application startup.
+[2025-04-03 17:59:01,723.723] INFO [10772] - Application startup complete.
+[2025-04-03 17:59:01,725.725] INFO [10772] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:59:03,384.384] INFO [10772] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:59:03,708.708] INFO [10772] - 127.0.0.1:54041 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 200
+[2025-04-03 17:59:39,174.174] INFO [10772] - Shutting down
+[2025-04-03 17:59:39,286.286] INFO [10772] - Waiting for application shutdown.
+[2025-04-03 17:59:39,286.286] INFO [10772] - Application shutdown complete.
+[2025-04-03 17:59:39,287.287] INFO [10772] - Finished server process [18396]
+[2025-04-03 17:59:44,919.919] INFO [13424] - Started server process [14720]
+[2025-04-03 17:59:44,921.921] INFO [13424] - Waiting for application startup.
+[2025-04-03 17:59:44,921.921] INFO [13424] - Application startup complete.
+[2025-04-03 17:59:44,922.922] INFO [13424] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 17:59:46,165.165] INFO [13424] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:59:46,179.179] INFO [13424] - 127.0.0.1:54056 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 500
+[2025-04-03 17:59:46,180.180] ERROR [13424] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat_router.py", line 49, in chat
+    ic(obj.messages)
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'messages'
+[2025-04-03 17:59:48,887.887] INFO [13424] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 17:59:48,901.901] INFO [13424] - 127.0.0.1:54057 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 500
+[2025-04-03 17:59:48,902.902] ERROR [13424] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat_router.py", line 49, in chat
+    ic(obj.messages)
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'messages'
+[2025-04-03 18:00:00,604.604] INFO [13424] - Shutting down
+[2025-04-03 18:00:00,718.718] INFO [13424] - Waiting for application shutdown.
+[2025-04-03 18:00:00,718.718] INFO [13424] - Application shutdown complete.
+[2025-04-03 18:00:00,719.719] INFO [13424] - Finished server process [14720]
+[2025-04-03 18:00:06,475.475] INFO [15428] - Started server process [17888]
+[2025-04-03 18:00:06,475.475] INFO [15428] - Waiting for application startup.
+[2025-04-03 18:00:06,476.476] INFO [15428] - Application startup complete.
+[2025-04-03 18:00:06,477.477] INFO [15428] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2025-04-03 18:00:07,591.591] INFO [15428] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 18:00:07,616.616] INFO [15428] - 127.0.0.1:54069 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 500
+[2025-04-03 18:00:07,617.617] ERROR [15428] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat_router.py", line 49, in chat
+    ic(obj["messages"])
+       ~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2025-04-03 18:00:09,664.664] INFO [15428] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 18:00:09,675.675] INFO [15428] - 127.0.0.1:54067 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 500
+[2025-04-03 18:00:09,675.675] ERROR [15428] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat_router.py", line 49, in chat
+    ic(obj["messages"])
+       ~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2025-04-03 18:00:38,853.853] INFO [15428] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 18:00:38,861.861] INFO [15428] - 127.0.0.1:54068 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 500
+[2025-04-03 18:00:38,862.862] ERROR [15428] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat_router.py", line 49, in chat
+    print(type(output))
+           ^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2025-04-03 18:00:41,581.581] INFO [15428] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-03 18:00:41,588.588] INFO [15428] - 127.0.0.1:54082 - "GET /chat?thread_id=%22563bb145-a8d5-4f16-b66d-9bb090237245%22&query=%22test2%22 HTTP/1.1" 500
+[2025-04-03 18:00:41,589.589] ERROR [15428] - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\.venv\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\3240133\Desktop\langchain-study\app\routers\chat_router.py", line 49, in chat
+    print(type(output))
+           ^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2025-04-03 18:00:44,535.535] INFO [15428] - Shutting down
+[2025-04-03 18:00:44,647.647] INFO [15428] - Waiting for application shutdown.
+[2025-04-03 18:00:44,647.647] INFO [15428] - Application shutdown complete.
+[2025-04-03 18:00:44,650.650] INFO [15428] - Finished server process [17888]
