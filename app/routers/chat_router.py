@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from typing import Union
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import START, MessagesState, StateGraph
 from icecream import ic
@@ -18,10 +19,20 @@ model = init_chat_model("gpt-4o-mini-2024-07-18", model_provider="openai")
 """
 
 workflow = StateGraph(state_schema=MessagesState)
-
+prompt_template = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            "당신은 AI Chatbot입니다, 사용자의 질문에 간략하게 답변하세요.",
+        ),
+        MessagesPlaceholder(variable_name="messages"),
+    ]
+)
 # 모델 호출 함수    
 async def call_model(state: MessagesState):
-    response = model.invoke(state["messages"])
+    prompt = prompt_template.invoke(state)
+    ic(prompt)
+    response = model.invoke(prompt)
     return { "messages" : response}  
 
 # 그래프 구성
@@ -40,13 +51,15 @@ app = workflow.compile(checkpointer=MemorySaver())
 
 @router.get("/chat")
 async def chat(thread_id: Union[str, None] = None, query: Union[str, None] = None):
-    config = {"configurable" : {"thread_id" : thread_id}}
     if thread_id == None:
-        thread_id = uuid.uuid4()
-        config = {"configurable": {"thread_id" : thread_id}}
+        thread_id = str(uuid.uuid4())
+    config = {"configurable": {"thread_id" : thread_id}}
     output = await app.ainvoke({"messages": query}, config)
-    print(output)
-    print(type(output))
-    output["thread_id"] = thread_id
-    return output    
+    messages = [{"type": obj.type, "content":obj.content} for obj in output['messages']]
+    result = {
+        "code":200, 
+        "msg": "성공입니다.",
+        "data": { "thread_id": thread_id, "messages": messages},
+    }       
+    return result     
     
