@@ -82,13 +82,14 @@ async def generate_stream(config, query):
         if isinstance(chunk, AIMessage): 
            yield f"{chunk.content}\n"
 
+
 """
  스트리밍 채팅 반환 
  
  DX사업팀 류재정 프로
  
  @param thread_id: 채팅방 아이디, query: 질의
- @return 답변 텍스트 
+ @return 답변 텍스트
 """
 @router.get("/streaming")
 async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] = None):
@@ -96,3 +97,4 @@ async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] 
         thread_id = str(uuid.uuid4())
     config = {"configurable": {"thread_id" : thread_id}}
     return StreamingResponse(generate_stream(config, query), media_type="text/plain")     # sse 형식의 경우, text/event-stream
+    
