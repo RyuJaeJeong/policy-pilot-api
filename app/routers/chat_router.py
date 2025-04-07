@@ -1,12 +1,14 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
 from typing import Union
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_qdrant import QdrantVectorStore
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import START, MessagesState, StateGraph
 from icecream import ic
+from ..utils.vector_db import get_collection 
 import os
 import uuid
 import asyncio
@@ -97,4 +99,8 @@ async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] 
         thread_id = str(uuid.uuid4())
     config = {"configurable": {"thread_id" : thread_id}}
     return StreamingResponse(generate_stream(config, query), media_type="text/plain")     # sse 형식의 경우, text/event-stream
-    
+
+@router.get("/retrieval")
+async def retrieval(vdb:QdrantVectorStore=Depends(lambda: get_collection(col_name="test1")), query: Union[str, None] = None):
+    vdb.
+    pass
