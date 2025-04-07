@@ -89,11 +89,6 @@ graph_builder.set_finish_point("generate")
 
 # 컴파일
 graph = graph_builder.compile()
-
-from IPython.display import Image, display
-
-display(Image(graph.get_graph().draw_mermaid_png()))
-
 result = graph.invoke({"question": "What is ReAct?"})
 
 print(f'Context: {result["context"]}\n\n')

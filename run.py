@@ -4,6 +4,11 @@ import uvicorn
 import os
 
 
+"""
+.venv\Scripts\activate
+
+"""
+
 if __name__ == "__main__":
     log_dir = os.path.abspath("./app/log_conf/log.ini")
     ic(log_dir)
