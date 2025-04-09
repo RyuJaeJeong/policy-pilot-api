@@ -1,1 +1,5 @@
 .venv/**
+**/__pycache__
+app/log_conf
+app/__pycache__
+app/routers/__pycache__

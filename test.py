@@ -6,6 +6,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from langgraph.graph import START, StateGraph
+from langgraph.checkpoint.memory import MemorySaver
 from typing_extensions import List, TypedDict
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams
@@ -50,12 +51,16 @@ loader = WebBaseLoader(
 docs = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, add_start_index=True)
 all_splits = text_splitter.split_documents(docs)
+# print(all_splits)
 document_ids = vector_store.add_documents(documents=all_splits)
 prompt = hub.pull("rlm/rag-prompt")
 
 example_messages = prompt.invoke(
     {"context": "(context goes here)", "question": "(question goes here)"}
 ).to_messages()
+
+# ic(prompt)
+# ic(example_messages)
 
 class State(TypedDict):
     question: str
@@ -71,6 +76,7 @@ def generate(state: State):
     docs_content = "\n\n".join(doc.page_content for doc in state["context"])
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     response = llm.invoke(messages)
+    ic(messages)
     return {"answer": response.content}
 
 # 그래프 빌더 생성
@@ -91,5 +97,6 @@ graph_builder.set_finish_point("generate")
 graph = graph_builder.compile()
 result = graph.invoke({"question": "What is ReAct?"})
 
-print(f'Context: {result["context"]}\n\n')
-print(f'Answer: {result["answer"]}')
+print(result)
+# print(f'Context: {result["context"]}\n\n')
+# print(f'Answer: {result["answer"]}')

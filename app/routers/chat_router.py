@@ -9,6 +9,8 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import START, MessagesState, StateGraph
 from icecream import ic
 from ..utils.vector_db import get_collection 
+from ..services.retriever_service import RetrieverService
+from ..schemas.state import State
 import os
 import uuid
 import asyncio
@@ -41,7 +43,7 @@ async def call_model(state: MessagesState):
     prompt = await prompt_template.ainvoke(state)
     ic(prompt)
     response = await model.ainvoke(prompt)
-    return { "messages" : response}  
+    return { "messages" : response }  
 
 # 그래프 구성
 workflow.add_node("model", call_model)
@@ -69,20 +71,20 @@ app = workflow.compile(checkpointer=MemorySaver())
 async def completion(thread_id: Union[str, None] = None, query: Union[str, None] = None):
     if thread_id == None:
         thread_id = str(uuid.uuid4())
+        
+    state = State(question=query)    
+    service = RetrieverService(state=state)    
     config = {"configurable": {"thread_id" : thread_id}}
-    output = await app.ainvoke({"messages": query}, config)
-    messages = [{"type": obj.type, "content":obj.content} for obj in output['messages']]
+    output = await service.app.ainvoke(state, config)
+    ic(output)
     result = {
         "code":200, 
         "msg": "성공입니다.",
-        "data": { "thread_id": thread_id, "messages": messages},
+        "data": output,
     }       
     return result
 
-async def generate_stream(config, query):
-    async for chunk, metadata in app.astream({"messages": query}, config, stream_mode="messages"):
-        if isinstance(chunk, AIMessage): 
-           yield f"{chunk.content}\n"
+
 
 
 """
@@ -93,14 +95,29 @@ async def generate_stream(config, query):
  @param thread_id: 채팅방 아이디, query: 질의
  @return 답변 텍스트
 """
+
+async def generate_stream(app, config, state):
+    async for chunk, metadata in app.astream(state, config, stream_mode="messages"):
+        if isinstance(chunk, AIMessage): 
+           print(chunk.content) 
+           yield f"{chunk.content}"
+
 @router.get("/streaming")
 async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] = None):
     if thread_id == None:
         thread_id = str(uuid.uuid4())
+    state = State(question=query)    
+    service = RetrieverService(state=state)
     config = {"configurable": {"thread_id" : thread_id}}
-    return StreamingResponse(generate_stream(config, query), media_type="text/plain")     # sse 형식의 경우, text/event-stream
+    return StreamingResponse(generate_stream(service.app, config, state), media_type="text/event-stream")     # sse 형식의 경우, text/event-stream
 
-@router.get("/retrieval")
-async def retrieval(vdb:QdrantVectorStore=Depends(lambda: get_collection(col_name="test1")), query: Union[str, None] = None):
-    vdb.
-    pass
+# @router.get("/ask")
+# async def ask(thread_id: Union[str, None] = None, query: Union[str, None] = None):
+#     if thread_id == None:
+#         thread_id = str(uuid.uuid4())
+#     state = State(question=query)
+#     service = RetrieverService(state=state)
+#     config = {"configurable": {"thread_id" : thread_id}}
+#     result = await service.app.ainvoke(state, config)
+#     return result
+    
