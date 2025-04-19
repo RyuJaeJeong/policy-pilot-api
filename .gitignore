@@ -3,3 +3,6 @@
 app/log_conf
 app/__pycache__
 app/routers/__pycache__
+.idea
+app/utils/__init__.py
+app/log_conf/uvicorn.log

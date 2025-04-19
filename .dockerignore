@@ -1,0 +1,10 @@
+.gitignore
+.venv
+.idea
+.python-version
+0.2.27
+guide.txt
+pdf_test.py
+pdf_test2.py
+pdf_test3.py
+test.py
