@@ -1,24 +1,42 @@
-from ..schemas.state import State
-from ..utils.vector_db import get_collection 
-from ..utils.llm_model import get_llm
-from icecream import ic
 from langchain_core.prompts import ChatPromptTemplate
-from langgraph.checkpoint.memory import MemorySaver
+from langchain_openai import OpenAIEmbeddings
+from langchain_qdrant import QdrantVectorStore
 from langgraph.graph import START, MessagesState, StateGraph
-
-memory = MemorySaver()
-        
+from  langgraph.graph.state import CompiledStateGraph
+from langgraph.checkpoint.memory import MemorySaver
+from ..schemas.chat_schema import State
+from langchain_core.language_models.chat_models import BaseChatModel, BaseMessage
+import os
 
 class RetrieverService:
-    
-    def __init__(self, state:State):
-        self.vector_store = get_collection(col_name="cp_20250408")
-        self.llm = get_llm()
-        self.template = ChatPromptTemplate.from_messages([
+
+    def __init__(self, llm:BaseChatModel, col_nm:str):
+        path = os.environ["VECTOR_DB_URL"]
+        self.llm = llm
+        self.vector_store = QdrantVectorStore.from_existing_collection(
+            embedding=OpenAIEmbeddings(model="text-embedding-3-large"),
+            collection_name=col_nm,
+            path=path
+        )
+        self.momory = MemorySaver()
+        self.workflow = StateGraph(State)
+
+    async def retrieve(self, state:State):
+        retrieved_docs = await self.vector_store.asimilarity_search(state["question"])
+        return {"context": retrieved_docs}
+
+    async def generate(self, state:State):
+        docs_content = "\n\n".join(doc.page_content for doc in state["context"])
+        prompt = self.get_prompt(state['question'], docs_content)
+        response = await self.llm.ainvoke(prompt)
+        return {"answer": response}
+
+    def get_prompt(self, question:str, context: str):
+        template = ChatPromptTemplate.from_messages([
             (
                 "system",
                 """당신은 사내 규정 전문가입니다. 다음 규정을 참고해 질문에 답변하세요:
-                
+
                 [응답 규칙]
                 1. 반드시 한국어로 답변
                 2. 답변 시작에 [제{{장}}장 제{{조}}조] 형식으로 출처 명시(예를들어 제8장 제56조)
@@ -32,31 +50,20 @@ class RetrieverService:
             ),
             (
                 "human",
-                """question: {question}
+                """\
+                   question: {question}
                    context: {context}
                    answer:
                 """
-            ) 
+            )
         ])
-        workflow = StateGraph(State)
-        workflow.add_node("retrieve", self.retrieve)
-        workflow.add_node("generate", self.generate)
-        workflow.add_edge(START, "retrieve")
-        workflow.add_edge("retrieve", "generate")
-        workflow.set_finish_point("generate")
-        app = workflow.compile(checkpointer=memory)
-        self.app = app
-        
-        
-    def retrieve(self, state:State):
-        retrieved_docs = self.vector_store.similarity_search(state["question"])
-        return {"context": retrieved_docs}
+        return template.invoke({"question": question, "context": context})
 
-    def generate(self, state:State):
-        docs_content = "\n\n".join(doc.page_content for doc in state["context"])
-        prompt = self.get_prompt(state, docs_content)
-        response = self.llm.invoke(prompt)
-        return {"answer": response}
-    
-    def get_prompt(self, state:State, context:str):
-        return self.template.invoke({"question": state["question"], "context": context})
+    def build_workflow(self) -> CompiledStateGraph:
+        self.workflow.add_node("retrieve", self.retrieve)
+        self.workflow.add_node("generate", self.generate)
+        self.workflow.add_edge(START, "retrieve")
+        self.workflow.add_edge("retrieve", "generate")
+        self.workflow.set_finish_point("generate")
+        app = self.workflow.compile(checkpointer=self.momory)
+        return app

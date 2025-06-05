@@ -1,8 +1,8 @@
 .venv/**
 **/__pycache__
-app/log_conf
+app/logging
 app/__pycache__
 app/routers/__pycache__
 .idea
 app/utils/__init__.py
-app/log_conf/uvicorn.log
+app/logging/uvicorn.log
