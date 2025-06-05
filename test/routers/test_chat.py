@@ -1,6 +1,12 @@
+from dotenv import load_dotenv
+load_dotenv(override=True)
+
+import pytest
 from fastapi.testclient import TestClient
 from app.main import app
 from icecream import ic
+import logging
+
 
 client = TestClient(app)
 

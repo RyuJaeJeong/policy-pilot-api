@@ -12,4 +12,4 @@ class State(TypedDict):
 class ChatResponse(BaseModel):
     code: int
     msg: str
-    data: dict[str, Any]
+    data: Union[dict[str, Any], None]
