@@ -10,7 +10,7 @@ import pandas as pd
 import logging
 
 load_dotenv(override=True)
-dataset = load_dataset("json", data_files="./static/ragas_data.json")
+dataset = load_dataset("json", data_files="./static/poc_test_data.json")
 llm = init_chat_model("gpt-4o-mini", model_provider="openai")
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 
@@ -37,11 +37,16 @@ for i, row in enumerate(dataset["train"]):
 try:
     evaluation_dataset = EvaluationDataset.from_list(arr)
     result = evaluate(dataset=evaluation_dataset,
-                      metrics=[Faithfulness(), SemanticSimilarity(), ResponseRelevancy(), LLMContextPrecisionWithoutReference()],
+                      metrics=[
+                          Faithfulness(),
+                          SemanticSimilarity(),
+                          ResponseRelevancy(),
+                          LLMContextPrecisionWithoutReference()
+                      ],
                       embeddings=embeddings,
                       llm=LangchainLLMWrapper(llm))
     print(result)
     ragas_result_df = result.to_pandas()
-    ragas_result_df.to_excel("text.xlsx")
+    ragas_result_df.to_csv("ragas_text.csv")
 except Exception as e:
     print(e)
