@@ -1,8 +1,11 @@
+from contextlib import asynccontextmanager
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
+from icecream import ic
 from langchain_core.messages import AIMessage
 from langchain_core.runnables import RunnableConfig
 from langfuse.callback import CallbackHandler
+from langgraph.checkpoint.mysql.asyncmy import AsyncMySaver
 from ..schemas.chat_schema import State, ChatResponse
 from ..services.contextual_compression_retriever_service import ContextualCompressionRetrieverService
 from typing import Union
@@ -12,18 +15,26 @@ import uuid
 import os
 
 # field
-router = APIRouter(prefix="/chat", tags=["chat"])
-langfuse_host = os.environ["LANGFUSE_HOST"]
-langfuse_public_key = os.environ["LANGFUSE_PUBLIC_KEY"]
-langfuse_secret_key = os.environ["LANGFUSE_SECRET_KEY"]
 langfuse_handler = CallbackHandler(
-    public_key=langfuse_public_key,
-    secret_key=langfuse_secret_key,
-    host=langfuse_host
+    public_key= os.environ["LANGFUSE_HOST"],
+    secret_key=os.environ["LANGFUSE_PUBLIC_KEY"],
+    host=os.environ["LANGFUSE_SECRET_KEY"]
 )
-service = ContextualCompressionRetrieverService(llm=get_llm(), col_nm="vine_policies_20250605_001")
-app = service.build_workflow()
+checkpointer, service, app = None, None, None
 
+@asynccontextmanager
+async def lifespan(router: APIRouter):
+    """ asyncmy 기반 checkpointer 로딩 """
+    global checkpointer, service, app
+    checkpointer_cm = AsyncMySaver.from_conn_string(os.environ["DB_URI"])
+    checkpointer = await checkpointer_cm.__aenter__()
+    service = ContextualCompressionRetrieverService(llm=get_llm(), col_nm="vine_policies_20250605_001", memory=checkpointer)
+    app = service.build_workflow()
+    yield
+    if checkpointer is not None:
+        await checkpointer_cm.__aexit__(None, None, None)
+
+router = APIRouter(prefix="/chat", tags=["chat"], lifespan=lifespan)
 
 # functions
 @router.get("/completion")
@@ -62,9 +73,13 @@ async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] 
 
 
 async def generate_stream(state:State, config:RunnableConfig):
+    ic(checkpointer)
     async for chunk, metadata in app.astream(state, config, stream_mode="messages"):
         if metadata['langgraph_node'] == "generate" and isinstance(chunk, AIMessage):
             yield f"{chunk.content}"
+    async for obj in checkpointer.alist(config):
+        if "question" in obj[1]["channel_values"]:
+            print(obj[1]["channel_values"]["question"])
 
 
 async def error_stream(e):

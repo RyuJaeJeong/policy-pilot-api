@@ -10,11 +10,12 @@ from langsmith import Client
 from qdrant_client import QdrantClient
 from langchain_qdrant import FastEmbedSparse, QdrantVectorStore, RetrievalMode
 import os
+from icecream import ic
 
 
 class BaseRetrieverService:
 
-    def __init__(self, llm:BaseChatModel, col_nm:str):
+    def __init__(self, llm:BaseChatModel, col_nm:str, memory):
         path = os.environ["VECTOR_DB_URL"]
         self.llm = llm
         self.vector_store = QdrantVectorStore.from_existing_collection(
@@ -22,19 +23,7 @@ class BaseRetrieverService:
             collection_name=col_nm,
             path=path
         )
-        # client = QdrantClient(path="./app/vdb")
-        # embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
-        # sparse_embeddings = FastEmbedSparse(model_name="Qdrant/bm25", cache_dir="./cache")
-        # self.vector_store = QdrantVectorStore(
-        #     client=client,
-        #     collection_name=col_nm,
-        #     embedding=embeddings,
-        #     sparse_embedding=sparse_embeddings,
-        #     retrieval_mode=RetrievalMode.HYBRID,
-        #     vector_name="dense",
-        #     sparse_vector_name="sparse",
-        # )
-        self.momory = MemorySaver()
+        self.memory = memory
         self.workflow = StateGraph(State)
         self.langsmith_client = Client()
 
@@ -59,5 +48,5 @@ class BaseRetrieverService:
         self.workflow.add_edge(START, "retrieve")
         self.workflow.add_edge("retrieve", "generate")
         self.workflow.set_finish_point("generate")
-        app = self.workflow.compile(checkpointer=self.momory)
+        app = self.workflow.compile(checkpointer=self.memory)
         return app
