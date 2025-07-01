@@ -7,3 +7,4 @@ app/routers/__pycache__
 app/utils/__init__.py
 app/logging/uvicorn.log
 cache
+.env
