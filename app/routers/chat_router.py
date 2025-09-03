@@ -1,28 +1,40 @@
-from contextlib import asynccontextmanager
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
-from icecream import ic
 from langchain_core.messages import AIMessage
 from langchain_core.runnables import RunnableConfig
 from langfuse.callback import CallbackHandler
 from langgraph.checkpoint.mysql.asyncmy import AsyncMySaver
-from ..schemas.chat_schema import State, ChatResponse
-from ..services.contextual_compression_retriever_service import ContextualCompressionRetrieverService
+from ..schemas.chat_schema import State
+from app.services.chat.contextual_compression_retriever_service import ContextualCompressionRetrieverService
+from app.services.embedding.custom_embedding_service import CustomEmbeddingService
 from typing import Union
+from contextlib import asynccontextmanager
 from ..utils.llm_model import get_llm
 import logging
-import uuid
 import os
+import gc
 
 # field
 langfuse_handler = CallbackHandler(
-    public_key= os.environ["LANGFUSE_HOST"],
-    secret_key=os.environ["LANGFUSE_PUBLIC_KEY"],
-    host=os.environ["LANGFUSE_SECRET_KEY"]
+    public_key= os.environ["LANGFUSE_PUBLIC_KEY"],
+    secret_key=os.environ["LANGFUSE_SECRET_KEY"],
+    host=os.environ["LANGFUSE_HOST"]
 )
+embeddings = None
+
+@asynccontextmanager
+async def lifespan(app: APIRouter):
+    global embeddings
+    embeddings = CustomEmbeddingService()
+    logging.info(f"embedding model is ready")
+    yield
+
+    embeddings = None
+    logging.info(f"bye bye embedding")
+    gc.collect()
 
 DB_URL = os.environ["DB_URL"]
-router = APIRouter(prefix="/chat", tags=["chat"])
+router = APIRouter(prefix="/chat", tags=["chat"], lifespan=lifespan)
 
 
 @router.get("/streaming")
@@ -38,7 +50,7 @@ async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] 
 
         async def generate_stream():
             async with AsyncMySaver.from_conn_string(DB_URL) as checkpointer:
-                service = ContextualCompressionRetrieverService(llm=get_llm(), col_nm="VC_T_250903", memory=checkpointer)
+                service = ContextualCompressionRetrieverService(memory=checkpointer, embedding=embeddings)
                 app = service.build_workflow()
                 state = State(question=query, context=None, answer=None)
                 config = RunnableConfig(configurable={"thread_id": thread_id}, callbacks=[langfuse_handler])

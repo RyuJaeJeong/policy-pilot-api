@@ -1,5 +1,5 @@
 from .base_retriever_service import BaseRetrieverService
-from ..schemas.chat_schema import State
+from app.schemas.chat_schema import State
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
 class MultiQueryRetrieverService(BaseRetrieverService):

@@ -1,5 +1,5 @@
 from .base_retriever_service import BaseRetrieverService
-from ..schemas.chat_schema import State
+from app.schemas.chat_schema import State
 from kiwipiepy import Kiwi
 from kiwipiepy.utils import Stopwords
 from langchain_core.language_models.chat_models import BaseChatModel, BaseMessage

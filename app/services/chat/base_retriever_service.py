@@ -1,26 +1,21 @@
+import os
 from langchain_core.prompt_values import ChatPromptValue
-from langchain.retrievers.multi_query import MultiQueryRetriever
-from langchain_openai import OpenAIEmbeddings
+from langchain_core.embeddings import Embeddings
+from langchain_qdrant import QdrantVectorStore
 from langgraph.graph import START, StateGraph
 from langgraph.graph.state import CompiledStateGraph
-from langgraph.checkpoint.memory import MemorySaver
-from ..schemas.chat_schema import State
-from langchain_core.language_models.chat_models import BaseChatModel, BaseMessage
 from langsmith import Client
-from qdrant_client import QdrantClient
-from langchain_qdrant import FastEmbedSparse, QdrantVectorStore, RetrievalMode
-import os
-from icecream import ic
+from app.schemas.chat_schema import State
+from app.utils.llm_model import get_llm
 
 
 class BaseRetrieverService:
 
-    def __init__(self, llm:BaseChatModel, col_nm:str, memory):
+    def __init__(self, embedding: Embeddings, memory):
         path = os.environ["VECTOR_DB_URL"]
-        self.llm = llm
         self.vector_store = QdrantVectorStore.from_existing_collection(
-            embedding=OpenAIEmbeddings(model="text-embedding-3-small"),
-            collection_name=col_nm,
+            embedding=embedding,
+            collection_name="VC_M_250903",
             path=path
         )
         self.memory = memory
@@ -35,7 +30,8 @@ class BaseRetrieverService:
     async def generate(self, state:State) -> dict:
         docs_content = "\n\n".join(doc.page_content for doc in state["context"])
         prompt = self.get_prompt(state['question'], docs_content)
-        response = await self.llm.ainvoke(prompt)
+        llm = get_llm()
+        response = await llm.ainvoke(prompt)
         return {"answer": response}
 
     def get_prompt(self, question: str, context: str) -> ChatPromptValue:
