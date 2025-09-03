@@ -1,6 +1,12 @@
-from langchain.chat_models import init_chat_model
+import os
+
+from langchain_openai import ChatOpenAI
 from functools import lru_cache
 import logging
 
 def get_llm():
-    return init_chat_model("gpt-4o-mini", model_provider="openai")
+    return ChatOpenAI(
+        model="gpt-4o-mini",
+        max_tokens=1024,
+        temperature=0.3,
+    )
