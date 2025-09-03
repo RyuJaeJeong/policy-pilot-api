@@ -1,10 +1,8 @@
-import os
-
-from langchain_openai import ChatOpenAI
-from functools import lru_cache
 import logging
+from langchain_openai import ChatOpenAI
 
 def get_llm():
+    logging.info(f"ChatOpenAI created")
     return ChatOpenAI(
         model="gpt-4o-mini",
         max_tokens=1024,

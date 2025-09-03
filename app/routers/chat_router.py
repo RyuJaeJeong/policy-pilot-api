@@ -10,6 +10,7 @@ from app.services.embedding.custom_embedding_service import CustomEmbeddingServi
 from typing import Union
 from contextlib import asynccontextmanager
 from ..utils.llm_model import get_llm
+from ..utils.vdb_con import get_vector_store
 import logging
 import os
 import gc
@@ -20,16 +21,23 @@ langfuse_handler = CallbackHandler(
     secret_key=os.environ["LANGFUSE_SECRET_KEY"],
     host=os.environ["LANGFUSE_HOST"]
 )
+
 embeddings = None
+vector_store = None
+col_nm = "VC_M_01"
 
 @asynccontextmanager
 async def lifespan(app: APIRouter):
     global embeddings
+    global vector_store
     embeddings = CustomEmbeddingService()
-    logging.info(f"embedding model is ready")
+    vector_store = get_vector_store(col_nm, embeddings)
+    logging.info(f"vs loaded")
+
     yield
 
     embeddings = None
+    vector_store = None
     logging.info(f"bye bye embedding")
     gc.collect()
 
@@ -50,7 +58,7 @@ async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] 
 
         async def generate_stream():
             async with AsyncMySaver.from_conn_string(DB_URL) as checkpointer:
-                service = ContextualCompressionRetrieverService(memory=checkpointer, embedding=embeddings)
+                service = ContextualCompressionRetrieverService(vector_store=vector_store, memory=checkpointer)
                 app = service.build_workflow()
                 state = State(question=query, context=None, answer=None)
                 config = RunnableConfig(configurable={"thread_id": thread_id}, callbacks=[langfuse_handler])
@@ -58,6 +66,7 @@ async def streaming(thread_id: Union[str, None] = None, query: Union[str, None] 
                     if metadata['langgraph_node'] == "generate" and isinstance(chunk, AIMessage):
                         logging.info(chunk)
                         yield f"{chunk}"
+                yield "[DONE]"
         return StreamingResponse(generate_stream(), media_type="text/event-stream")
     except Exception as e:
         logging.error(f"에러 발생 : {e}")

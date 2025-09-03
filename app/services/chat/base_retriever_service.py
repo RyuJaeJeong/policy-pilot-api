@@ -7,17 +7,13 @@ from langgraph.graph.state import CompiledStateGraph
 from langsmith import Client
 from app.schemas.chat_schema import State
 from app.utils.llm_model import get_llm
+from icecream import ic
 
 
 class BaseRetrieverService:
 
-    def __init__(self, embedding: Embeddings, memory):
-        path = os.environ["VECTOR_DB_URL"]
-        self.vector_store = QdrantVectorStore.from_existing_collection(
-            embedding=embedding,
-            collection_name="VC_M_250903",
-            path=path
-        )
+    def __init__(self, vector_store: QdrantVectorStore, memory):
+        self.vector_store = vector_store
         self.memory = memory
         self.workflow = StateGraph(State)
         self.langsmith_client = Client()
@@ -31,6 +27,7 @@ class BaseRetrieverService:
         docs_content = "\n\n".join(doc.page_content for doc in state["context"])
         prompt = self.get_prompt(state['question'], docs_content)
         llm = get_llm()
+        ic(prompt)
         response = await llm.ainvoke(prompt)
         return {"answer": response}
 
