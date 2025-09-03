@@ -16,4 +16,4 @@ class ContextualCompressionRetrieverService(BaseRetrieverService):
             base_compressor=base_compressor, base_retriever=base_retriever
         )
         retrieved_docs = await compression_retriever.ainvoke(state["question"])
-        return { "context": retrieved_docs }
+        return {"context": retrieved_docs}

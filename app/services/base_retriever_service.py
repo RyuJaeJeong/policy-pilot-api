@@ -19,7 +19,7 @@ class BaseRetrieverService:
         path = os.environ["VECTOR_DB_URL"]
         self.llm = llm
         self.vector_store = QdrantVectorStore.from_existing_collection(
-            embedding=OpenAIEmbeddings(model="text-embedding-3-large"),
+            embedding=OpenAIEmbeddings(model="text-embedding-3-small"),
             collection_name=col_nm,
             path=path
         )
