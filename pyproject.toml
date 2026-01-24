@@ -38,6 +38,7 @@ dependencies = [
     "safetensors>=0.5.3",
     "sentence-transformers>=4.0.2",
     "sqlmodel>=0.0.24",
+    "streamlit>=1.53.1",
     "tokenizers>=0.21.1",
     "torch>=2.6.0",
     "transformers>=4.51.1",
