@@ -12,7 +12,7 @@ def get_vector_store(vc_name: str, embeddings: Embeddings) -> QdrantVectorStore:
     client = QdrantClient(":memory:")
     client.create_collection(
         collection_name=vc_name,
-        vectors_config=VectorParams(size=1024, distance=Distance.COSINE),
+        vectors_config=VectorParams(size=3072, distance=Distance.COSINE),
     )
     file_path = "./output.json"
     with open(file_path, "r", encoding="utf-8") as file:

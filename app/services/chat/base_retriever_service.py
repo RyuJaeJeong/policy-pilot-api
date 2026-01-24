@@ -24,6 +24,7 @@ class BaseRetrieverService:
         return {"context": retrieved_docs}
 
     async def generate(self, state:State) -> dict:
+        """ LLM에 의한 답변 생성 """
         docs_content = "\n\n".join(doc.page_content for doc in state["context"])
         prompt = self.get_prompt(state['question'], docs_content)
         llm = get_llm()
